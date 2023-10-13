@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15775 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 65360 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/GitHub/Unity/VR-BowAndArrow-nj
+C:/GitHub/Unity-C-sharp/VR-BowAndArrow-nj-targets
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63516
-Successfully changed project path to: C:/GitHub/Unity/VR-BowAndArrow-nj
-C:/GitHub/Unity/VR-BowAndArrow-nj
+63828
+Successfully changed project path to: C:/GitHub/Unity-C-sharp/VR-BowAndArrow-nj-targets
+C:/GitHub/Unity-C-sharp/VR-BowAndArrow-nj-targets
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,72 +47,72 @@ C:/GitHub/Unity/VR-BowAndArrow-nj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 114.14 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 2.37 ms.
+Refreshing native plugins compatible for Editor in 93.82 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 3.19 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GitHub/Unity/VR-BowAndArrow-nj/Assets
+[Subsystems] Discovering subsystems at path C:/GitHub/Unity-C-sharp/VR-BowAndArrow-nj-targets/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
     Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.3742
+    VRAM:     7973 MB
+    Driver:   31.0.15.3667
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006642 seconds.
+Registered in 0.004328 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 105.06 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 60.29 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.575 seconds
 Domain Reload Profiling:
-	ReloadAssembly (841ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (575ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (625ms)
+		EndReloadAssembly (397ms)
 			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (390ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008518 seconds.
+Registered in 0.005044 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 145.62 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 56.55 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -120,44 +120,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.88.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.825 seconds
+- Completed reload, in  0.931 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1827ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1568ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (962ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (164ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.78 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.25 ms.
-Unloading 4725 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 111 unused Assets / (148.3 KB). Loaded Objects now: 5122.
-Memory consumption went from 178.0 MB to 177.9 MB.
-Total: 8.764300 ms (FindLiveObjects: 0.651400 ms CreateObjectMapping: 0.441800 ms MarkObjects: 7.473600 ms  DeleteObjects: 0.196300 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 4732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 113 unused Assets / (140.9 KB). Loaded Objects now: 5127.
+Memory consumption went from 178.5 MB to 178.4 MB.
+Total: 8.205500 ms (FindLiveObjects: 0.314200 ms CreateObjectMapping: 0.243100 ms MarkObjects: 7.448200 ms  DeleteObjects: 0.198200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,62 +172,98 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6071.559316 seconds.
-  path: Assets/_BowAndArrow/Scripts/Arrow.cs
-  artifactKey: Guid(4efde785f55475d4faf016df659306fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BowAndArrow/Scripts/Arrow.cs using Guid(4efde785f55475d4faf016df659306fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7b22559238276e0408f1e001c81a0') in 0.072140 seconds 
+  Time since last request: 13833.721125 seconds.
+  path: Assets/_BowAndArrow/Main.unity
+  artifactKey: Guid(0bdc2251efd355d45add28195d99d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Main.unity using Guid(0bdc2251efd355d45add28195d99d336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc0479ac8a434e36fba78456dd4b838') in 0.019605 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 94.824461 seconds.
-  path: Assets/_BowAndArrow/Scripts/Arrow.cs
-  artifactKey: Guid(4efde785f55475d4faf016df659306fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BowAndArrow/Scripts/Arrow.cs using Guid(4efde785f55475d4faf016df659306fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff473c60309761e8fc1d8d06c889495b') in 0.002772 seconds 
+  Time since last request: 347.481205 seconds.
+  path: Assets/SimpleLowPolyNature/Prefabs
+  artifactKey: Guid(45690ad9e15981946be65f9548d8dd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Prefabs using Guid(45690ad9e15981946be65f9548d8dd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2378f47be52249ca367e6e5e36f97856') in 0.024203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.369287 seconds.
+  path: Assets/SimpleLowPolyNature/Prefabs/LightingPlant1.prefab
+  artifactKey: Guid(46ca9bca5d4d6824c9973375d741a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Prefabs/LightingPlant1.prefab using Guid(46ca9bca5d4d6824c9973375d741a3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e4776a619cbf98d3968955f9b0984b') in 0.113706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.006794 seconds.
+  path: Assets/SimpleLowPolyNature/Scenes/PrefabsScene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(5cab939ab3666cc4091260e92b1cd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Scenes/PrefabsScene/Lightmap-1_comp_dir.png using Guid(5cab939ab3666cc4091260e92b1cd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1291f7ef38a2f9ce9b7e68c63229aab5') in 0.059568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.208556 seconds.
+  path: Assets/SimpleLowPolyNature/Scenes/SceneDemoAsset/LowpolyTerrain.prefab
+  artifactKey: Guid(f01337c4b1a6e774cb6a6f4c3dd02910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Scenes/SceneDemoAsset/LowpolyTerrain.prefab using Guid(f01337c4b1a6e774cb6a6f4c3dd02910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56933050d3dd5ea160ae4b6641bc6c3') in 0.018162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.711891 seconds.
+  path: Assets/SimpleLowPolyNature
+  artifactKey: Guid(d04ca5a265186294f9d2457d75275ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature using Guid(d04ca5a265186294f9d2457d75275ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84b8021506d79f4dcf7bee6ed8b4b98') in 0.013183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.247485 seconds.
+  path: Assets/_BowAndArrow/Scripts
+  artifactKey: Guid(2cb5f16e65ba74c4799fb66cf2911933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts using Guid(2cb5f16e65ba74c4799fb66cf2911933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6560519d7d5f69916e87e65d0bf445') in 0.027249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.244700 seconds.
+  path: Assets/_BowAndArrow/Scripts/MovementController.cs
+  artifactKey: Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/MovementController.cs using Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30ae33aa53566fe82d0c97ee420cd1') in 0.016546 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006990 seconds.
+Registered in 0.006968 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  0.865 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1160ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (865ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (944ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (497ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.20 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 4621 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 96 unused Assets / (116.2 KB). Loaded Objects now: 5126.
-Memory consumption went from 169.6 MB to 169.5 MB.
-Total: 7.073400 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.224700 ms MarkObjects: 6.422300 ms  DeleteObjects: 0.147300 ms)
+Refreshing native plugins compatible for Editor in 9.12 ms, found 13 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 4630 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (495.7 KB). Loaded Objects now: 5138.
+Memory consumption went from 174.7 MB to 174.3 MB.
+Total: 4.977900 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.095600 ms MarkObjects: 4.467900 ms  DeleteObjects: 0.219100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -242,65 +278,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 457.325206 seconds.
-  path: Assets/_BowAndArrow/Prefabs/Arrow.prefab
-  artifactKey: Guid(5c51937e899ec9443a1757aefe9d49cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BowAndArrow/Prefabs/Arrow.prefab using Guid(5c51937e899ec9443a1757aefe9d49cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81416dc0ec92079919474db1f225fed') in 0.146001 seconds 
+  Time since last request: 296.102100 seconds.
+  path: Assets/SimpleLowPolyNature/Scenes
+  artifactKey: Guid(42f24a6993a5efe45921fa92af43b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Scenes using Guid(42f24a6993a5efe45921fa92af43b7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18915386ced0af4d3a107625793f8866') in 0.038505 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008186 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.039 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2040ms)
-		BeginReloadAssembly (221ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (1677ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (339ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1004ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (624ms)
-				ProcessInitializeOnLoadMethodAttributes (186ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 17.58 ms, found 13 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
-Unloading 4621 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 96 unused Assets / (108.8 KB). Loaded Objects now: 5136.
-Memory consumption went from 173.7 MB to 173.6 MB.
-Total: 15.538400 ms (FindLiveObjects: 0.437500 ms CreateObjectMapping: 0.335000 ms MarkObjects: 14.418700 ms  DeleteObjects: 0.344500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3.407413 seconds.
+  path: Assets/SimpleLowPolyNature/Scenes/SceneDemoAsset
+  artifactKey: Guid(f1cb0ac6ac2a1b24e9ba7d358353264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Scenes/SceneDemoAsset using Guid(f1cb0ac6ac2a1b24e9ba7d358353264c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378d75486af2dfed5bd7dda40e64c3b9') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 811.741607 seconds.
+  path: Assets/_BowAndArrow/Scripts/MovementController.cs
+  artifactKey: Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/MovementController.cs using Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb9691348f3b2ea1c33d0d1ad9cad48') in 0.002816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.126217 seconds.
+  path: Assets/_BowAndArrow/Scripts/LocomotionProvider.cs
+  artifactKey: Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/LocomotionProvider.cs using Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b876179fbbe524490ffcb03c564ee7a') in 0.019249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004853 seconds.
+  path: Assets/_BowAndArrow/Scripts/Bow.cs
+  artifactKey: Guid(bed6d8822a925ec43a36f07d632808d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/Bow.cs using Guid(bed6d8822a925ec43a36f07d632808d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593a43770eaa42b061ca178448639cdf') in 0.019353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.490627 seconds.
+  path: Assets/_BowAndArrow/Scripts/MovementProvider.cs
+  artifactKey: Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/MovementProvider.cs using Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95b023ea06fa2d0307b305570d797cb') in 0.019264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 575.802499 seconds.
+  path: Assets/_BowAndArrow/Scripts/MovementProvider.cs
+  artifactKey: Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BowAndArrow/Scripts/MovementProvider.cs using Guid(0a1cc49798b195c4a8dcec4e8d3d5eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5791388bc110a1c34d49cf1db51b1de') in 0.018373 seconds 
