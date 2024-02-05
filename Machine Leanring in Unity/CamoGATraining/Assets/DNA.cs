@@ -1,4 +1,4 @@
-using System.Collections;=
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ public class DNA : MonoBehaviour
     // Gene for colour
     public float r;
     public float g;
-    public float b;=
+    public float b;
 
     // Store whether a player has been clicked on (i.e. they have died)
     bool dead = false;
@@ -22,7 +22,7 @@ public class DNA : MonoBehaviour
     void OnMouseDown()
     {
         dead = true;
-        timeToDie = PopulationManager.elsapsed;
+        timeToDie = PopulationManager.elapsed;
         Debug.Log("Dead At: " + timeToDie);
 
         // When the person is considered "dead" the collider and renderer are disabled
@@ -35,6 +35,9 @@ public class DNA : MonoBehaviour
     {
         sRenderer = GetComponent<SpriteRenderer>();
         sCollider = GetComponent<Collider2D>();
+
+        // Set the colour values set up in the population manager
+        sRenderer.color = new Color(r, b, g);
     }
 
     // Update is called once per frame
