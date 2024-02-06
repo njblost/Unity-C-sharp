@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq; // Easy way to sort lists
 
 public class PopulationManager : MonoBehaviour
 {
@@ -52,6 +53,40 @@ public class PopulationManager : MonoBehaviour
             // New GameObject is added to the population list
             population.Add(go);
         }
+    }
+
+    GameObject Breed(GameObject parent1, GameObject parent2)
+    {
+        Vector3 pos = new Vector3(Random.Range(-9,9),Random.Range)
+    }
+
+    void BreedNewPopulation() 
+    {
+        // Creates a list to hold our new population
+        List<GameObject> newPopulation = new List<GameObject>();
+
+        // Remove unfit units - we are building only Übermensch!
+        List<GameObject> sortedList = population.OrderBy(o => o.GetComponent<DNA>().timeToDie).ToList();
+        
+        population.Clear();
+
+        // Breed the upper half of the Übermensch - we loop the list starting half way down (/ 2.0f), thus we end up with the top of the list after it loops around
+        // We use i and i + 1 to intially breed the person half-way along the list, then the next person up 1 from that - this continues up the list i++
+        for (int i = (int) (sortedList.Count / 2.0f) - 1; i < sortedList.Count - 1; i++)
+        {
+            // For Aaron and Ed: why are we breeding the list twice with the code below? Clue: think about the symmetry in the brackets!
+            population.Add(Breed(sortedList[i], sortedList[i + 1]));
+            population.Add(Breed(sortedList[i + 1], sortedList[i]));
+        }
+
+        // ANS: We breed i with i+1, and vice versa -  this will give us enough of a population size to continue with evolution and keep enough of a population size to avoid an exploding population issue
+        // Destroy all parents and previous population
+        for(int i = 0; i < sortedList.Count; i ++)
+        {
+            Destroy(sortedList[i]);
+        }
+        // Updates generation count
+        generation++;
     }
 
     // Update is called once per frame
