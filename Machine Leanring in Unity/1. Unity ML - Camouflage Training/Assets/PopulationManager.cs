@@ -40,7 +40,7 @@ public class PopulationManager : MonoBehaviour
         {
             // Screen parameters (Random.Range(x, y, z) note z = 0 since we are working in 2D
             // The Range is captured by moving the character on screen and taking the x, y, z location values - your screen's game view might be different!
-            Vector3 pos = new Vector3(Random.Range(-7, 7), Random.Range(-3f, 3f), 0);
+            Vector3 pos = new Vector3(Random.Range(-7f, 7f), Random.Range(-3f, 3f), 0);
 
             // Creates the person and instantiates it, the Quaternion gives us a zero rotational value default
             GameObject go = Instantiate(personPrefab, pos, Quaternion.identity);
@@ -59,28 +59,29 @@ public class PopulationManager : MonoBehaviour
     GameObject Breed(GameObject parent1, GameObject parent2)
     {
         // Random location for new instantiated persons
-        Vector3 pos = new Vector3(Random.Range(-7, 7), Random.Range(-3f, 3f), 0);
+        Vector3 pos = new Vector3(Random.Range(-7f, 7f), Random.Range(-3f, 3f), 0);
         GameObject offspring = Instantiate(personPrefab, pos, Quaternion.identity);
 
         // Here we inherit DNA from parents
         DNA dna1 = parent1.GetComponent<DNA>();
         DNA dna2 = parent2.GetComponent<DNA>();
-        
-        // Swap parent DNA
-        // if (Random.Range(0, 10) < 5)
-        // {
+
+        // Mutation setup
+        if(Random.Range(0,10) < 5)
+        {
             // 50% of the time the offspring will get parent1 r,b,g channel, and parent2 r,b,g channel the other 50% of the time
             // This inheritence code is the fundamental code for any genetic algorithm whether in robotics, economics, optimisation tasks, etc. this is the foundation of that code
             offspring.GetComponent<DNA>().r = Random.Range(0, 10) < 5 ? dna1.r : dna2.r;
             offspring.GetComponent<DNA>().g = Random.Range(0, 10) < 5 ? dna1.g : dna2.g;
             offspring.GetComponent<DNA>().b = Random.Range(0, 10) < 5 ? dna1.b : dna2.b;
-        // }
-         //else
-         //{
-         //    offspring.GetComponent<DNA>().r = Random.Range(0.0f, 1.0f);
-         //    offspring.GetComponent<DNA>().g = Random.Range(0.0f, 1.0f);
-         //    offspring.GetComponent<DNA>().b = Random.Range(0.0f, 1.0f);
-         //}
+        }
+        
+        else
+        {
+            offspring.GetComponent<DNA>().r = Random.Range(0.0f, 1.0f);
+            offspring.GetComponent<DNA>().g = Random.Range(0.0f, 1.0f);
+            offspring.GetComponent<DNA>().b = Random.Range(0.0f, 1.0f);
+        }
         return offspring;
     }
 
@@ -90,7 +91,7 @@ public class PopulationManager : MonoBehaviour
         List<GameObject> newPopulation = new List<GameObject>();
 
         // Remove unfit units - we are building only Übermensch!
-        List<GameObject> sortedList = population.OrderBy(o => o.GetComponent<DNA>().timeToDie).ToList();
+        List<GameObject> sortedList = population.OrderByDescending(o => o.GetComponent<DNA>().timeToDie).ToList();
         
         population.Clear();
 
