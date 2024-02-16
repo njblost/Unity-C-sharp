@@ -85,13 +85,13 @@ public class PopulationManager : MonoBehaviour
         return offspring;
     }
 
-    void BreedNewPopulation() 
+    void BreedNewPopulation()
     {
         // Creates a list to hold our new population
         List<GameObject> newPopulation = new List<GameObject>();
 
         // Remove unfit units
-        List<GameObject> sortedList = population.OrderByDescending(o => o.GetComponent<DNA>().timeToDie).ToList();
+        List<GameObject> sortedList = population.OrderBy(o => o.GetComponent<DNA>().timeToDie).ToList();
         
         population.Clear();
 
