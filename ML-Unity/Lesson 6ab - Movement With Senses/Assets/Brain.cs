@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Brain : MonoBehaviour
@@ -50,23 +49,23 @@ public class Brain : MonoBehaviour
         timeAlive = PopulationManager.elapsed;
 
         // Read DNA
-        float h = 0;
-        float v = 0;
+        float turn = 0;
+        float move = 0;
 
         if (seeGround)
         {
-            if (dna.GetGene(0) == 0) v = 1;
-            else if (dna.GetGene(0) == 1) h = -90;
-            else if (dna.GetGene(0) == 2) h = 90;
+            if (dna.GetGene(0) == 0) move = 1;
+            else if (dna.GetGene(0) == 1) turn = -90;
+            else if (dna.GetGene(0) == 2) turn = 90;
         }
         else
         {
-            if (dna.GetGene(1) == 0) v = 1;
-            else if (dna.GetGene(1) == 1) h = -90;
-            else if (dna.GetGene(1) == 2) h = 90;
+            if (dna.GetGene(1) == 0) move = 1;
+            else if (dna.GetGene(1) == 1) turn = -90;
+            else if (dna.GetGene(1) == 2) turn = 90;
         }
 
-        this.transform.Translate(0, 0, v * 0.1f);
-        this.transform.Rotate(0, h, 0);
+        this.transform.Translate(0, 0, move * 0.1f);
+        this.transform.Rotate(0, turn, 0);
     }
 }
