@@ -2,66 +2,60 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Brain : MonoBehaviour
-{
-    int DNALength = 2;
-    public DNA dna;
-    public GameObject eyes;
+namespace MazeWalking {
 
-    bool seeWall = true;
-    Vector3 startPosition;
-    public float distanceTravelled = 0;
-    bool alive = true;
+    public class Brain : MonoBehaviour {
 
-    // Initialise DNA
-    public void Init()
-    {
-        // 0 Forward
-        // 1 Angle Turn
-        dna = new DNA(DNALength, 360);
-        startPosition = this.transform.position;
-    }
+        public int DNALength = 2;
+        public DNA dna;
+        public GameObject eyes;
+        public float distatanceTravelled = 0.0f;
+        private bool canSeeWall = true;
+        private Vector3 startPosition;
+        private bool isAlive = true;
 
-    void OnCollisionEnter(Collision col)
-    {
-        if(col.gameObject.tag == "dead")
-        {
-            distanceTravelled = 0;
-            alive = false;
+        public void Init() {
+
+            // Initialise DNA
+            // 0 Forward
+            // 1 Angle Turn
+            dna = new DNA(DNALength, 360);
+            startPosition = this.transform.position;
         }
-    }
 
-    void Update()
-    {
-        if (!alive) return;
+        private void OnCollisionEnter(Collision col) {
 
-        seeWall = false;
-        RaycastHit hit;
-        Debug.DrawRay(eyes.transform.position, eyes.transform.forward * 0.5f, Color.red);
-        if(Physics.SphereCast(eyes.transform.position, 0.1f, eyes.transform.forward, out hit, 0.5f))
-        {
-            if(hit.collider.gameObject.tag == "wall")
-            {
-                seeWall = true;
+
+            if (col.gameObject.tag == "dead") {
+
+                distatanceTravelled = 0.0f;
+                isAlive = false;
             }
         }
-    }
 
-    void FixedUpdate()
-    {
-        if (!alive) return;
+        private void Update() {
 
-        // Read the DNA
-        float h = 0;
-        float v = dna.GetGene(1);
+            canSeeWall = false;
+            Debug.DrawRay(eyes.transform.position, eyes.transform.forward * 0.5f, Color.red);
+            if (Physics.SphereCast(eyes.transform.position, 0.1f, eyes.transform.forward, out RaycastHit hit, 0.5f)) {
 
-        if (seeWall)
-        {
-            h = dna.GetGene(1);
+                if (hit.collider.gameObject.tag == "wall") canSeeWall = true;
+            }
         }
 
-        this.transform.Translate(0, 0, v * 0.001f);
-        this.transform.Rotate(0, h, 0);
-        distanceTravelled = Vector3.Distance(startPosition, this.transform.position);
+        private void FixedUpdate() {
+
+            if (!isAlive) return;
+
+            // Read DNA
+            float h = 0.0f;
+            float v = dna.GetGene(0);
+
+            if (canSeeWall) h = dna.GetGene(1);
+
+            this.transform.Translate(0.0f, 0.0f, v * 0.0001f);
+            this.transform.Rotate(0.0f, h, 0.0f);
+            distatanceTravelled = Vector3.Distance(startPosition, this.transform.position);
+        }
     }
 }
