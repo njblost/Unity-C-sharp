@@ -1,0 +1,865 @@
+Unity Editor version:    2022.3.17f1 (4fc78088f837)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.4.1 (Build 24E263)
+Darwin version:          24.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        36864 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51944
+Successfully changed project path to: /Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction
+/Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 3627406681 [EditorId] 3627406681 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 3627406681 [EditorId] 3627406681 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 13 workers.
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 Max (high power)
+Metal devices available: 1
+0: Apple M3 Max (high power)
+Using device Apple M3 Max (high power)
+Initializing Metal device caps: Apple M3 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000769 seconds.
+- Loaded All Assemblies, in  0.168 seconds
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.169 seconds
+Domain Reload Profiling: 337ms
+	BeginReloadAssembly (34ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (33ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (136ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.290 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 596ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.3 KB). Loaded Objects now: 3548.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 2.050542 ms (FindLiveObjects: 0.115084 ms CreateObjectMapping: 0.028416 ms MarkObjects: 1.831375 ms  DeleteObjects: 0.075167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 603079.775711 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86f401dcb4df7ee8f2c9fb1fd5ca1ea6') in 0.026276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 319.164681 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.645991 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(14d2335681bc54dcab6fbdad9a9956d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(14d2335681bc54dcab6fbdad9a9956d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6facb62313849907fc4d10fb969b05d9') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.962989 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(14d2335681bc54dcab6fbdad9a9956d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials using Guid(14d2335681bc54dcab6fbdad9a9956d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2221aeaa51fb8f8f58af9cc76c2093d') in 0.005286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.588714 seconds.
+  path: Assets/Materials 1
+  artifactKey: Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials 1 using Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c898fc966b1790e53ae3683e649df') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.952570 seconds.
+  path: Assets/Materials 1
+  artifactKey: Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials 1 using Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e9c282194f39d2c00f73f9395dd74a7') in 0.002047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.995842 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765f78ab8b35152c7587b5820b68b0a') in 0.000335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.982379 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts using Guid(2b816b5e6a1e943369eb8e1ce40278d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97c39259bc5f80bc6b6bc5d472fafa72') in 0.004606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 237.547506 seconds.
+  path: Assets/Materials/Floor_M.mat
+  artifactKey: Guid(cfb62fccdfce84a908c0df663ec2afb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Floor_M.mat using Guid(cfb62fccdfce84a908c0df663ec2afb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8a33755153414539aa6cce03262f405') in 0.065380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 693.086345 seconds.
+  path: Assets/Materials/Wall_M.mat
+  artifactKey: Guid(0020be5add9ba415bade88f2da6a043b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Wall_M.mat using Guid(0020be5add9ba415bade88f2da6a043b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d7f92ebcea5237a62a29e03d71a35b4') in 0.002591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 650.561419 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces
+  artifactKey: Guid(3f20a1fda23234c31ac6ca8f79b085df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces using Guid(3f20a1fda23234c31ac6ca8f79b085df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cda16c22d53ab932feceee530b37e1') in 0.000272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.833040 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile0.asset
+  artifactKey: Guid(46515c974f777864eb6b6bad806a41a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile0.asset using Guid(46515c974f777864eb6b6bad806a41a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5139d47f4921572b5bc8e4f1bce0f42') in 0.007222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile3.prefab
+  artifactKey: Guid(9f5b0033b1d69084f84192f57fdc9224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile3.prefab using Guid(9f5b0033b1d69084f84192f57fdc9224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd49b12dea37685739ec1c1fa12b3cf64') in 0.008050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities
+  artifactKey: Guid(3521e0f45779e394db0026c17503fe8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities using Guid(3521e0f45779e394db0026c17503fe8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24c5d3eb47f888837806ea33b8f9738e') in 0.002107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6
+  artifactKey: Guid(35de884195bd84bd694ab5890d24c69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6 using Guid(35de884195bd84bd694ab5890d24c69d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd0fc611708d32737b66adb691d5bc9d') in 0.000905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/EnableIffSleeping.cs
+  artifactKey: Guid(c56046daca8eb46f3af030c05f030e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/EnableIffSleeping.cs using Guid(c56046daca8eb46f3af030c05f030e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4adbafb6b3f93b354136d7dba2499e1') in 0.001797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrain.unity
+  artifactKey: Guid(6c20ed45d4ebd40df8a16fa95e142c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrain.unity using Guid(6c20ed45d4ebd40df8a16fa95e142c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f412a1b1cfdcb8b1b0a983443d85a113') in 0.001308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/GloballyUpdatedNavMeshSurface.cs
+  artifactKey: Guid(f48d3001ccdce69418119f74f39f090d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/GloballyUpdatedNavMeshSurface.cs using Guid(f48d3001ccdce69418119f74f39f090d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1167ee5d4ffad87ff667fe278ae96fb7') in 0.002786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBark.mat
+  artifactKey: Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBark.mat using Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95bf4c264897253dd42b6605532b1672') in 0.002656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/4_sliding_window_infinite.unity
+  artifactKey: Guid(e51437cfed50e46d58183a8174327158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/4_sliding_window_infinite.unity using Guid(e51437cfed50e46d58183a8174327158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81a663eac87221f040c54dc41c45ba92') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ClickToMove.cs
+  artifactKey: Guid(c9472e73a59274b9b8da79d72004bd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ClickToMove.cs using Guid(c9472e73a59274b9b8da79d72004bd8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2e1dec7aabf00e736bf903a17620297') in 0.002914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.prefab
+  artifactKey: Guid(46d69f622d1354ee0820b7921e262b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.prefab using Guid(46d69f622d1354ee0820b7921e262b38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0a0b075aa8a00bb028ccf48543f45a7') in 0.006016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brown.mat
+  artifactKey: Guid(1e1c6a0a64beb49ec96272beefa468a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brown.mat using Guid(1e1c6a0a64beb49ec96272beefa468a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '776b7893cdeade1f24c0332585468248') in 0.002695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/2_drop_plankSettings.lighting
+  artifactKey: Guid(664b2478265387d46840f86ebcaaaaf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/2_drop_plankSettings.lighting using Guid(664b2478265387d46840f86ebcaaaaf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 2 to 0.
+ -> (artifact id: '4941fcb1abb5fae8302b69ea3ae49ea5') in 0.008227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/NavigationSampleSettingsState.asset
+  artifactKey: Guid(609d2182df172eb43b6b754cc6dcabd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/NavigationSampleSettingsState.asset using Guid(609d2182df172eb43b6b754cc6dcabd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb8fb56e73b411c62dad8493c2d06a92') in 0.001469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile14.asset
+  artifactKey: Guid(712388a9678d0d14e9563840673930d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile14.asset using Guid(712388a9678d0d14e9563840673930d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e5c59de7b5a286141ed06ff15721b7d') in 0.004236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/NavMeshSurfaceVolumeUpdater.cs
+  artifactKey: Guid(115dfe7b0938447cbbf9507076f54049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/NavMeshSurfaceVolumeUpdater.cs using Guid(115dfe7b0938447cbbf9507076f54049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9139d0e2ac6c90f7bc18c9440e206e13') in 0.002151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011656 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh
+  artifactKey: Guid(047de1c8c84a5484486da65ddf980243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh using Guid(047de1c8c84a5484486da65ddf980243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '323297b35bfb0d8b8634d1466edc7af1') in 0.001564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/GroundTile.prefab
+  artifactKey: Guid(c1f4492f15da844ebae2767c08ef4aab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/GroundTile.prefab using Guid(c1f4492f15da844ebae2767c08ef4aab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67a90a2c1b0983bc62fb860d527b1bae') in 0.002227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DestroyOnTrigger.cs
+  artifactKey: Guid(c786c4b29e72040b881bf13065fb9788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DestroyOnTrigger.cs using Guid(c786c4b29e72040b881bf13065fb9788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '397203329a89bb17321de54a4b8ee598') in 0.002804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat
+  artifactKey: Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat using Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fdbe5b0dbbd9316cb88e34f379fd00d') in 0.002582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/NavigationSampleInitializer.cs
+  artifactKey: Guid(4b4f798af8320134f8549651d7ea621a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/NavigationSampleInitializer.cs using Guid(4b4f798af8320134f8549651d7ea621a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7ea2bfe81d1215aa4089dd12c23c4ff') in 0.002372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/AgentLinkMover.cs
+  artifactKey: Guid(03bc8063c9e95401f9a8a38bc716750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/AgentLinkMover.cs using Guid(03bc8063c9e95401f9a8a38bc716750d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e85f26c92a16aaa8ef86aa1dd946d66') in 0.001642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile6.asset
+  artifactKey: Guid(8e345e5dcd92a024e8185275f40903bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile6.asset using Guid(8e345e5dcd92a024e8185275f40903bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '711ecc2d9d07ddab4dc188685c61c844') in 0.002186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-Without-HeightMesh.asset
+  artifactKey: Guid(c1760d40bfe7eb34e81b5ebcd8e6303f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-Without-HeightMesh.asset using Guid(c1760d40bfe7eb34e81b5ebcd8e6303f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7789285385cea7a587227637386ce0b') in 0.003015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts
+  artifactKey: Guid(a2ed02c68fbdf4352979d89a8d1c7bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts using Guid(a2ed02c68fbdf4352979d89a8d1c7bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6844b4085593f10fbe6d9f96c910383b') in 0.001159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientationSettings.lighting
+  artifactKey: Guid(45a4ca14d5b84d947bcaf6225862d5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientationSettings.lighting using Guid(45a4ca14d5b84d947bcaf6225862d5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 2 to 0.
+ -> (artifact id: '8959178b42c1e972552ebdcad2d63d68') in 0.004391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains
+  artifactKey: Guid(75dd45a13a93f4ea2a0e5018ef4651c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains using Guid(75dd45a13a93f4ea2a0e5018ef4651c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93d7df600619ac698b950c08339afddf') in 0.001058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile15.prefab
+  artifactKey: Guid(ee39dcc75bf7d1f48b96f26bff411bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile15.prefab using Guid(ee39dcc75bf7d1f48b96f26bff411bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '256fc563b2887a3aeffd1b8cc516b9dd') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/LightmapWithFog.png
+  artifactKey: Guid(8377171c01a5547358598762f90c022f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/LightmapWithFog.png using Guid(8377171c01a5547358598762f90c022f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c88ee21a12ac1dac9063ea96a6672d4') in 0.024760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_mesh.unity
+  artifactKey: Guid(01a58dc6a76c24f859a51e3de2203501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_mesh.unity using Guid(01a58dc6a76c24f859a51e3de2203501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a37dd3753ae68ac11a84c325b5cb06e') in 0.001366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/NavigationLoop.cs
+  artifactKey: Guid(7e11f36a144a248cbacbea0c8cf7803e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/NavigationLoop.cs using Guid(7e11f36a144a248cbacbea0c8cf7803e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f960f792fe1e7202b6f022a11768f4b') in 0.002017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile7.prefab
+  artifactKey: Guid(cec3eb0e2dc6e5644ad75ee41750a4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile7.prefab using Guid(cec3eb0e2dc6e5644ad75ee41750a4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7cad8514033251a615cc100a860e9ad') in 0.001570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile8.asset
+  artifactKey: Guid(e9fa3b298750441429f9249799e60701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile8.asset using Guid(e9fa3b298750441429f9249799e60701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17c743327a85faa8e25f63944ec6c79a') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile6.prefab
+  artifactKey: Guid(77768f7f5dbb7154f95784b02b8f6664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile6.prefab using Guid(77768f7f5dbb7154f95784b02b8f6664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '668838a7e98eec9668340b8b58f6556d') in 0.001790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes/NavMesh-Geometry 1.asset
+  artifactKey: Guid(e3102e40dfee54ef4b9e05daad8492d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes/NavMesh-Geometry 1.asset using Guid(e3102e40dfee54ef4b9e05daad8492d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7ca6358ec65f739c21f6e5afc0fc8a8') in 0.002533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs
+  artifactKey: Guid(547d8777744d94a36a3bd59fbf4ee093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs using Guid(547d8777744d94a36a3bd59fbf4ee093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3758700002ffd388c9b9d521e026e38e') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile1.asset
+  artifactKey: Guid(80378785cd4db084190958d3dc659a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile1.asset using Guid(80378785cd4db084190958d3dc659a10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eda1dd99062740a08eee14b988566a03') in 0.002203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes.unity
+  artifactKey: Guid(e3a4b724d578d4696a8ccd679e44174c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes.unity using Guid(e3a4b724d578d4696a8ccd679e44174c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6ea3f7915e6fc40a32ffd8b147895ad') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-With-HeightMesh.asset
+  artifactKey: Guid(62212e6c53e70d94e9f7b80631b978d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh/NavMesh-With-HeightMesh.asset using Guid(62212e6c53e70d94e9f7b80631b978d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ee80ed888339238a3f8ada0f11cdd4b') in 0.003530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DungeonManager.cs
+  artifactKey: Guid(c56d911659e3c4b499e11b47a73a4dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DungeonManager.cs using Guid(c56d911659e3c4b499e11b47a73a4dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c068de952fee442c9d5e3a0868acc02e') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile10.asset
+  artifactKey: Guid(b23b6a7d2aaa9ce4582fd2a46f9359f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile10.asset using Guid(b23b6a7d2aaa9ce4582fd2a46f9359f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51e22cbb857a510e14c4d35b598ff514') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Models
+  artifactKey: Guid(171c017f86dd240c38d32077d845b67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Models using Guid(171c017f86dd240c38d32077d845b67d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca7f5450aa5570458e6ecb12dd8b81a9') in 0.000786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon.unity
+  artifactKey: Guid(64e67ca20d18848429dd567d351e9746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon.unity using Guid(64e67ca20d18848429dd567d351e9746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b7da803772185e99446a43b1caeb006') in 0.001346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile4.prefab
+  artifactKey: Guid(5193382618d54f84b87649b2fbadbb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile4.prefab using Guid(5193382618d54f84b87649b2fbadbb0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc6fd53fcced3cc8a95b402563b5c65a') in 0.001459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile9.prefab
+  artifactKey: Guid(7957d6f8f9172704e96d7e9a01ae30df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile9.prefab using Guid(7957d6f8f9172704e96d7e9a01ae30df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62f89df3f70b3be206e8941207582b13') in 0.001199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/AI Navigation
+  artifactKey: Guid(298eaf7f24efb46f9bd441bbe64601e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation using Guid(298eaf7f24efb46f9bd441bbe64601e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8566b0794f93d57ccd57c3e766790c1') in 0.001160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile4.asset
+  artifactKey: Guid(deca9b2aea9dcf34f9a1d77d550c33fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile4.asset using Guid(deca9b2aea9dcf34f9a1d77d550c33fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8798f371bb58c90f7c6702f347857a25') in 0.001950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh.unity
+  artifactKey: Guid(b96a618785dcb49f3a9ea3671ff3ef56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/8_heightmesh.unity using Guid(b96a618785dcb49f3a9ea3671ff3ef56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a81ceb65d54aaf2d593f2327b045e14b') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/Islands.asset
+  artifactKey: Guid(94511fbc8bb3e4f94aa3a65d6f584b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/Islands.asset using Guid(94511fbc8bb3e4f94aa3a65d6f584b9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e8e789ae7c9999a28253a5973ecdb3b') in 0.034979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_meshSettings.lighting
+  artifactKey: Guid(613ed4ed64e81e541a2a4a44a102eb78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/6_modify_meshSettings.lighting using Guid(613ed4ed64e81e541a2a4a44a102eb78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 2 to 0.
+ -> (artifact id: '0db381fd54319a08b3eb2aac35f697d4') in 0.004764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor
+  artifactKey: Guid(b965d7c48dbdb594cb2678be44f7ea34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor using Guid(b965d7c48dbdb594cb2678be44f7ea34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bab873653ac4588033ed648a847d2ead') in 0.001069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile3.asset
+  artifactKey: Guid(3d0f05ef2ffa5684c98666f976f85d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile3.asset using Guid(3d0f05ef2ffa5684c98666f976f85d28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43030a2f13cbeae0d6710d6ca03a2a1a') in 0.002631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile1.prefab
+  artifactKey: Guid(eac302f53f4e5ea4daf5babd66e7a1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile1.prefab using Guid(eac302f53f4e5ea4daf5babd66e7a1bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '077a8815e62c6ca7b4b47b11227d9926') in 0.002072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/Unity.AI.Navigation.Samples.Initialization.Editor.asmdef
+  artifactKey: Guid(1dcde1c83efa6e14e8e75ed67addeba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/Unity.AI.Navigation.Samples.Initialization.Editor.asmdef using Guid(1dcde1c83efa6e14e8e75ed67addeba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63ab18d9e9a19ecc50a7d1e0eef98c9e') in 0.002721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile12.asset
+  artifactKey: Guid(2553a2b38a1b9bd49996ce66432c7d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile12.asset using Guid(2553a2b38a1b9bd49996ce66432c7d56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0d73976ed61f80efda095bef130fed66') in 0.002236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile13.asset
+  artifactKey: Guid(d2a64f951cb69b34098642a9f71840d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile13.asset using Guid(d2a64f951cb69b34098642a9f71840d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebf4e7c93317ffbd42f663aab459cf49') in 0.002020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/README.md
+  artifactKey: Guid(fc8ae2061accdd44eb6e12956ab840ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/README.md using Guid(fc8ae2061accdd44eb6e12956ab840ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e80205aa7a048dac94362dfd4e2d2d18') in 0.001049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile0.prefab
+  artifactKey: Guid(5261d4eb73238124699d94d00c77e4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile0.prefab using Guid(5261d4eb73238124699d94d00c77e4ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20624e35c0f7e24785a244fc6dc9cb89') in 0.002253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.288006 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile9.asset
+  artifactKey: Guid(88df1f2e29017c94da2ea377c6a695f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile9.asset using Guid(88df1f2e29017c94da2ea377c6a695f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6238b8bc2f1256372b8b3a3dfac99b7') in 0.002339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/floor.mat
+  artifactKey: Guid(3adb56b3302734c8d8e5a18699302e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/floor.mat using Guid(3adb56b3302734c8d8e5a18699302e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61dd7329b61adb03340b06216a5989d3') in 0.002192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile15.asset
+  artifactKey: Guid(84c6548965e19ec4e85c00fd43b0cf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile15.asset using Guid(84c6548965e19ec4e85c00fd43b0cf9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec422c5b0be9f367063b18554d0f3a55') in 0.002484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation
+  artifactKey: Guid(52cc192293b90458b95f9fdcda30be14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation using Guid(52cc192293b90458b95f9fdcda30be14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16fe4f085ce9ec5a1fcb871f8e018d15') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/red.mat
+  artifactKey: Guid(5195427c0d27644ed90d87ebe86d468a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/red.mat using Guid(5195427c0d27644ed90d87ebe86d468a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7def555ec2560e988d4a1ae20a1c17a8') in 0.001681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(697e40173cd2a497180b7395289360c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples using Guid(697e40173cd2a497180b7395289360c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbbf7bb9f56fb0db1e2445d7cf5e0318') in 0.001580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 213.967988 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat
+  artifactKey: Guid(ade8fca681f724cd89b5a568642f15ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat using Guid(ade8fca681f724cd89b5a568642f15ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f0a1af91a7289e70b07a5b56a86b48') in 0.266223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.853382 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/crosshair.mat
+  artifactKey: Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/crosshair.mat using Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e1cb7048fd49cb588f814c565fdbfc') in 0.054764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat
+  artifactKey: Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBranches.mat using Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413019935de9a1a2e64960c93aca1317') in 0.003570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat
+  artifactKey: Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat using Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd936ab549fc5da6af94924799d86ac1') in 0.003020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBark.mat
+  artifactKey: Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials/BanyanBark.mat using Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820e21304eb3de444f46a391fc8b5ed8') in 0.003038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/floor.mat
+  artifactKey: Guid(3adb56b3302734c8d8e5a18699302e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/floor.mat using Guid(3adb56b3302734c8d8e5a18699302e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324ff0532ab596f916700b5913d8215b') in 0.002978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 103.641242 seconds.
+  path: Assets/Materials/Wall_M.mat
+  artifactKey: Guid(0020be5add9ba415bade88f2da6a043b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Wall_M.mat using Guid(0020be5add9ba415bade88f2da6a043b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79857cbc9a51dfc31e93f53d3a63ae96') in 0.006766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f71ed9087c6540d4b7bb6e12929ebc3b') in 0.004712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Materials/Floor_M.mat
+  artifactKey: Guid(cfb62fccdfce84a908c0df663ec2afb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Floor_M.mat using Guid(cfb62fccdfce84a908c0df663ec2afb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5d2514427d94ceddf616b483185a890') in 0.002954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
