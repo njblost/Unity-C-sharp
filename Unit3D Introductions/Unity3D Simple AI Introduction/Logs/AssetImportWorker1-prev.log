@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51944
+53175
 Successfully changed project path to: /Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction
 /Users/njbeepbeep/GitHub/Unity-C-sharp/Unit3D Introductions/Unity3D Simple AI Introduction
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/njbeepbeep/GitHub/Unity-C-sharp/Uni
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 2800242312 [EditorId] 2800242312 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 1559254788 [EditorId] 1559254788 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 2800242312 [EditorId] 2800242312 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8552352896] Host "[IP] 192.168.68.50 [Port] 0 [Flags] 2 [Guid] 1559254788 [EditorId] 1559254788 [Version] 1048832 [Id] OSXEditor(0,NJSMBPM3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 13 workers.
-Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56813
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56646
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.000772 seconds.
-- Loaded All Assemblies, in  0.160 seconds
+Registered in 0.001650 seconds.
+- Loaded All Assemblies, in  0.170 seconds
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.165 seconds
-Domain Reload Profiling: 325ms
-	BeginReloadAssembly (34ms)
+- Finished resetting the current domain, in  0.174 seconds
+Domain Reload Profiling: 344ms
+	BeginReloadAssembly (35ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (76ms)
-		LoadAssemblies (34ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (35ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (68ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (73ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (165ms)
+	FinalizeReload (174ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (134ms)
+		SetupLoadedEditorAssemblies (142ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (57ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			ProcessInitializeOnLoadAttributes (58ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,57 +123,53 @@ Domain Reload Profiling: 325ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.280 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.304 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.275 seconds
-Domain Reload Profiling: 556ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
+		CreateAndSetChildDomain (14ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (102ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (91ms)
-				TypeCache.ScanAssembly (80ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (275ms)
+	FinalizeReload (318ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (185ms)
+		SetupLoadedEditorAssemblies (213ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (24ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (9ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3548.
-Memory consumption went from 130.8 MB to 130.8 MB.
-Total: 2.179958 ms (FindLiveObjects: 0.101625 ms CreateObjectMapping: 0.028708 ms MarkObjects: 1.963833 ms  DeleteObjects: 0.085208 ms)
+Unloading 3199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (51.0 KB). Loaded Objects now: 3663.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 2.165083 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.030458 ms MarkObjects: 1.950708 ms  DeleteObjects: 0.066958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,374 +186,465 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 605005.211363 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Plank.prefab
-  artifactKey: Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Plank.prefab using Guid(c9c7047f49d1a47f8b32b67338d4fc92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c97a94441aa3ebfc76cbefbd1d75dee') in 0.050376 seconds
+  Time since last request: 606022.857091 seconds.
+  path: Assets/Scripts/Guard.cs
+  artifactKey: Guid(5ea90938c49f142dd92d918a4fe9f719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Guard.cs using Guid(5ea90938c49f142dd92d918a4fe9f719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567e3bc2f9e06161cc732eb6550ab5f9') in 0.000929 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x331c87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.211 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 3667.
+Memory consumption went from 138.4 MB to 138.4 MB.
+Total: 1.989334 ms (FindLiveObjects: 0.105333 ms CreateObjectMapping: 0.028834 ms MarkObjects: 1.827500 ms  DeleteObjects: 0.027250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.fbx
-  artifactKey: Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/BanyanTree.fbx using Guid(0015d5d487e6b4c51b6be43a47511ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9beffc5553d265a06ab885643988db68') in 0.020867 seconds
+  Time since last request: 117.936851 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(9064190a3e3d64f4d8d4082c9e249f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(9064190a3e3d64f4d8d4082c9e249f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba0b6de5bc800bf5ebc171b930943c3') in 0.000857 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Oscillator.cs
-  artifactKey: Guid(c59ac8154f1b24ea7a85cab0f39a4489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Oscillator.cs using Guid(c59ac8154f1b24ea7a85cab0f39a4489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '357364326a1acc968a5c71a699713727') in 0.001588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30c087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.212 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.0 KB). Loaded Objects now: 3671.
+Memory consumption went from 145.6 MB to 145.6 MB.
+Total: 2.071583 ms (FindLiveObjects: 0.118708 ms CreateObjectMapping: 0.038583 ms MarkObjects: 1.885709 ms  DeleteObjects: 0.028084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes/NavMesh-Geometry.asset
-  artifactKey: Guid(16f366ac098d14128924f8cb99c76613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes/NavMesh-Geometry.asset using Guid(16f366ac098d14128924f8cb99c76613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c0353a96c15c26389cc19f2882249cb') in 0.003685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30c087000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.211 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 800ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.0 KB). Loaded Objects now: 3674.
+Memory consumption went from 153.0 MB to 153.0 MB.
+Total: 1.941375 ms (FindLiveObjects: 0.094375 ms CreateObjectMapping: 0.030916 ms MarkObjects: 1.788667 ms  DeleteObjects: 0.027042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile14.prefab
-  artifactKey: Guid(fd4823febd7d9b2429f5c3ce392bcb7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile14.prefab using Guid(fd4823febd7d9b2429f5c3ce392bcb7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0369c65b89e55ce97d73ce45974d3d91') in 0.002216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f8e7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.208 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 637ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (429ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.0 KB). Loaded Objects now: 3677.
+Memory consumption went from 160.1 MB to 160.1 MB.
+Total: 2.013166 ms (FindLiveObjects: 0.103625 ms CreateObjectMapping: 0.031417 ms MarkObjects: 1.846917 ms  DeleteObjects: 0.030666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomInstancing.cs
-  artifactKey: Guid(0805752a20e62489680c7c8ba929bccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomInstancing.cs using Guid(0805752a20e62489680c7c8ba929bccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1af5de7e5695427a30cbbe2b15cb0b7') in 0.001810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f8e7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.212 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 747ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (535ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.0 KB). Loaded Objects now: 3680.
+Memory consumption went from 167.2 MB to 167.2 MB.
+Total: 1.980625 ms (FindLiveObjects: 0.100125 ms CreateObjectMapping: 0.028375 ms MarkObjects: 1.822958 ms  DeleteObjects: 0.028542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile11.prefab
-  artifactKey: Guid(eb925ae209e72a742a6bebd10c4da798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile11.prefab using Guid(eb925ae209e72a742a6bebd10c4da798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e75e8afcbda4b9b42e5f45132798e08a') in 0.002290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f8e7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.214 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 748ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 3683.
+Memory consumption went from 174.3 MB to 174.3 MB.
+Total: 1.866083 ms (FindLiveObjects: 0.099666 ms CreateObjectMapping: 0.030417 ms MarkObjects: 1.709458 ms  DeleteObjects: 0.026083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes
-  artifactKey: Guid(c2cb1390efdb94ba790577476c2dba3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes using Guid(c2cb1390efdb94ba790577476c2dba3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fd90ceae47397e11186faa0e9e3121b') in 0.001039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials
-  artifactKey: Guid(1d90e8e96f35140d6bed17ee9c581927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/Materials using Guid(1d90e8e96f35140d6bed17ee9c581927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab05ec4666482c404b826262829715c3') in 0.001362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile7.asset
-  artifactKey: Guid(cf440083f496235459cb5e1eee4c518a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile7.asset using Guid(cf440083f496235459cb5e1eee4c518a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e656e66e5448075524c7ff6229ac004') in 0.002150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/layer_LightmapWithFog(2048.000,2048.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(9f4e51767bd6244418c3f1234ffeac48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Terrains/layer_LightmapWithFog(2048.000,2048.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(9f4e51767bd6244418c3f1234ffeac48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c71bcd96a56fe449e4ac24f39391514') in 0.006572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/2_drop_plank.unity
-  artifactKey: Guid(d5440f69c97a641f19160f152dfb503f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/2_drop_plank.unity using Guid(d5440f69c97a641f19160f152dfb503f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e06f6437ff9ffe53887513fba65b6b61') in 0.001226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials
-  artifactKey: Guid(1716d92973fc64cc09961634f8be8d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials using Guid(1716d92973fc64cc09961634f8be8d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a58025c3055b8a7b8d38ad717b6256a') in 0.001003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/SpawnPrefabOnKeyDown.cs
-  artifactKey: Guid(c751607f01df8445c86b012985b8b152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/SpawnPrefabOnKeyDown.cs using Guid(c751607f01df8445c86b012985b8b152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eba9c3fadfb505ea2d59c4ee492807e4') in 0.001469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile12.prefab
-  artifactKey: Guid(047629885d0f48940816dd33d83ca9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile12.prefab using Guid(047629885d0f48940816dd33d83ca9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9619a2b5d64d107733997658ab41c5f7') in 0.002138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/FreeCam.cs
-  artifactKey: Guid(b6c30eb361e754b75ac25325c5d024bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/FreeCam.cs using Guid(b6c30eb361e754b75ac25325c5d024bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9482a328806e31b5337ebb572396203') in 0.001496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile2.asset
-  artifactKey: Guid(75065cc8ed1ff314baef1ae052abad8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile2.asset using Guid(75065cc8ed1ff314baef1ae052abad8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbb564ae019425fb97dc25584e966840') in 0.001966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation.unity
-  artifactKey: Guid(de3b928c3e7da4138bdb4cf0c0c43b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation.unity using Guid(de3b928c3e7da4138bdb4cf0c0c43b2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25d96e4374388d393c35a2aec142cf31') in 0.001061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile11.asset
-  artifactKey: Guid(1ed3d21512658cd43914192e689047be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile11.asset using Guid(1ed3d21512658cd43914192e689047be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad520487b2935160b5707ae148d26275') in 0.002552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation/NavMesh-TiltedPlane.asset
-  artifactKey: Guid(c4fc4cc23b8fe4c46ae30ebae2a3ed7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/3_free_orientation/NavMesh-TiltedPlane.asset using Guid(c4fc4cc23b8fe4c46ae30ebae2a3ed7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3811e21b3750f3be34440dcbdb201f96') in 0.001930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/modify_crosshair.png
-  artifactKey: Guid(28d2c2677149d45e290e8fa042b1b80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/modify_crosshair.png using Guid(28d2c2677149d45e290e8fa042b1b80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77c500845e53bcdbdbdc33b129eb1a05') in 0.021919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat
-  artifactKey: Guid(ade8fca681f724cd89b5a568642f15ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/grey.mat using Guid(ade8fca681f724cd89b5a568642f15ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '205d24e67a5c8d44e829519a7be1e5dc') in 0.029043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile10.prefab
-  artifactKey: Guid(5a42d29fbf7424949aef05b1ffaf7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile10.prefab using Guid(5a42d29fbf7424949aef05b1ffaf7f5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbc305541831cb4d0cef65d514a96a5b') in 0.001504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces
-  artifactKey: Guid(3f20a1fda23234c31ac6ca8f79b085df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces using Guid(3f20a1fda23234c31ac6ca8f79b085df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3aa4547b1a00c974c56a910ca90290a8') in 0.001943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile2.prefab
-  artifactKey: Guid(34a33b6f5666ab64dbf8eaed73dbc677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile2.prefab using Guid(34a33b6f5666ab64dbf8eaed73dbc677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '793be11e3f7511ead66cb56f58b42edd') in 0.001443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/NavigationSampleSettingsState.cs
-  artifactKey: Guid(299341368f0a4ce5beba0c07f7bb5bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/NavigationSampleSettingsState.cs using Guid(299341368f0a4ce5beba0c07f7bb5bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70cab857bd28ce0f90828ca4551cd7b0') in 0.001784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile5.prefab
-  artifactKey: Guid(55df5bb05b3629b44ac9536db6727e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile5.prefab using Guid(55df5bb05b3629b44ac9536db6727e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0f77a4d1b94ee98f3aea38198695c5a') in 0.001931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/yellow.mat
-  artifactKey: Guid(c07befab8ca1540368e662cfe2fddf6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/yellow.mat using Guid(c07befab8ca1540368e662cfe2fddf6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22ca201bad083e432cf3060f5e8df5ee') in 0.002840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile13.prefab
-  artifactKey: Guid(3535f5eddb6474b4b87035d10881f26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile13.prefab using Guid(3535f5eddb6474b4b87035d10881f26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d6b27998bfd9458148a340caedaef71') in 0.001764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrainSettings.lighting
-  artifactKey: Guid(1ce27b0ea12a96c4dbf3b9507993580a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/5_sliding_window_terrainSettings.lighting using Guid(1ce27b0ea12a96c4dbf3b9507993580a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 2 to 0.
- -> (artifact id: '5f9cb8873852425914db000ed9704fc0') in 0.007956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/NavigationSampleProjectSettingsGenerator.cs
-  artifactKey: Guid(7eeb774ee02ee2e4eb6e3387169f1ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/ProjectSettingsUtilities/Editor/NavigationSampleProjectSettingsGenerator.cs using Guid(7eeb774ee02ee2e4eb6e3387169f1ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '159c7941db987627f26462ccabbb85b7') in 0.002070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/crosshair.mat
-  artifactKey: Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/crosshair.mat using Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce5b889442830c5d90c94c0e23baee01') in 0.003907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile8.prefab
-  artifactKey: Guid(1e66d2a3cc6511a49b71e7f6589a1d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles/Tile8.prefab using Guid(1e66d2a3cc6511a49b71e7f6589a1d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08c671d38f80f0cf7bbebd6f08fe3650') in 0.002437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes
-  artifactKey: Guid(b1b14868671104a5ea9d67deed03d64d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/1_multiple_agent_sizes using Guid(b1b14868671104a5ea9d67deed03d64d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5fedcf6ddb2fd9563df8a096a745eae') in 0.001194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/green.mat
-  artifactKey: Guid(0aa37164acf594e03876b4e0b590280e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/green.mat using Guid(0aa37164acf594e03876b4e0b590280e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28c677e2f818f1a5c25546933000423f') in 0.001862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Cube.prefab
-  artifactKey: Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Cube.prefab using Guid(86232f43ed7fd4fc5a9098ccda13d2ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dad6de9677f6ac5bcdd9fa1d8ec3d59') in 0.003142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon
-  artifactKey: Guid(031d9ee5b0160c643bdd5a65342348b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon using Guid(031d9ee5b0160c643bdd5a65342348b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fd6632dd7c2ecc0e2d79df4127532dd') in 0.001251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomWalk.cs
-  artifactKey: Guid(dd76b8ee2dbcf4be6998e917c65cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/RandomWalk.cs using Guid(dd76b8ee2dbcf4be6998e917c65cd6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de391e49bc55910896a1ce3e8049d845') in 0.001323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/MeshTool.cs
-  artifactKey: Guid(9d5a3e609186342b2a976cd32fd7d0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/MeshTool.cs using Guid(9d5a3e609186342b2a976cd32fd7d0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a88be15c2db82628b6bca5b7a63ceb4') in 0.002389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Unity.AI.Navigation.Samples.asmdef
-  artifactKey: Guid(62b574997e92efd41a8a1109157a0cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Unity.AI.Navigation.Samples.asmdef using Guid(62b574997e92efd41a8a1109157a0cb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30e6bd07ac8ea9ba8596b85df29d5a46') in 0.001641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat
-  artifactKey: Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Materials/brightgreen.mat using Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '334470312bd480ee99192151a7e5a579') in 0.002049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile5.asset
-  artifactKey: Guid(b120c0c77747600448c3119bc7d76dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scenes/7_dungeon/NavMesh-Tile5.asset using Guid(b120c0c77747600448c3119bc7d76dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2121f1930d61107eb019d51c50b531b3') in 0.002249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.288599 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles
-  artifactKey: Guid(d45d1e444c46fbf478ccdf15998ea360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Prefabs/DungeonTiles using Guid(d45d1e444c46fbf478ccdf15998ea360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94190e41f8747b392208ac52e402d60d') in 0.001529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Despawner.cs
-  artifactKey: Guid(d3be0b2e79a40424c88b51776d94b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/Despawner.cs using Guid(d3be0b2e79a40424c88b51776d94b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '043b4c4e76854a16baf2be3e35b19e7a') in 0.001170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Models/heightmesh.obj
-  artifactKey: Guid(e9bb8c5fd27124c93bbf364c49307001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Models/heightmesh.obj using Guid(e9bb8c5fd27124c93bbf364c49307001) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '057328e6a4f54b154993438b1d2b63bc') in 0.007052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DynamicNavMeshObject.cs
-  artifactKey: Guid(ac596217843ab3647b721eacaea9c581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Samples/AI Navigation/1.1.6/Build And Connect NavMesh Surfaces/Scripts/DynamicNavMeshObject.cs using Guid(ac596217843ab3647b721eacaea9c581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6da6092160df331ee185d3863156b07c') in 0.001255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
-AssetImportWorker is now disconnected from the server
-Process exiting
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f8e7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.204 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 790ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.2 KB). Loaded Objects now: 3686.
+Memory consumption went from 181.4 MB to 181.3 MB.
+Total: 2.142000 ms (FindLiveObjects: 0.114541 ms CreateObjectMapping: 0.028875 ms MarkObjects: 1.971667 ms  DeleteObjects: 0.026625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
