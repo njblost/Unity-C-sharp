@@ -1,0 +1,154 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage[margin=1in]{geometry}
+\definecolor{lightgray}{gray}{0.95}
+
+\lstset{
+	backgroundcolor=\color{lightgray},
+	basicstyle=\ttfamily\small,
+	frame=single,
+	breaklines=true
+}
+
+\title{2a Adding a Fly-squito - Banana Mayhem}
+\author{Nicholas \& Aikens}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section{FlyMovement.cs}
+	
+	\textbf{Purpose:} Chases the player and triggers a “death” (scene reload) on contact.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item In \texttt{Start()}, find and cache the \texttt{Transform} of the GameObject tagged “Player”.  
+		\item In \texttt{Update()}, compute the normalized direction vector toward the player and translate the fly each frame by \texttt{speed * Time.deltaTime}.  
+		\item In \texttt{OnTriggerEnter2D()}, detect collision with the player and reload the active scene.  
+	\end{enumerate}
+	
+	\begin{lstlisting}[language=C]
+		// FlyMovement.cs
+		using UnityEngine;
+		using UnityEngine.SceneManagement;
+		
+		[RequireComponent(typeof(Rigidbody2D))]
+		public class FlyMovement : MonoBehaviour
+		{
+			[Tooltip("Chase speed in units per second")]
+			public float speed = 3f;
+			
+			private Transform player;
+			
+			void Start()
+			{
+				// Find the Player by tag in the scene
+				GameObject playerGO = GameObject.FindWithTag("Player");
+				if (playerGO != null)
+				player = playerGO.transform;
+				else
+				Debug.LogError("No GameObject with tag 'Player' found.");
+			}
+			
+			void Update()
+			{
+				if (player == null) return;
+				
+				// Compute direction toward player
+				Vector2 direction = (player.position - transform.position).normalized;
+				
+				// Move the fly
+				transform.Translate(direction * speed * Time.deltaTime);
+			}
+			
+			void OnTriggerEnter2D(Collider2D other)
+			{
+				if (other.CompareTag("Player"))
+				{
+					// Reload current scene => player dies
+					SceneManager.LoadScene(
+					SceneManager.GetActiveScene().buildIndex);
+				}
+			}
+		}
+	\end{lstlisting}
+	
+	\section{FlySpawner.cs}
+	
+	\textbf{Purpose:} Instantiates one fly at each designated spawn point when the scene starts.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item Expose a \texttt{GameObject flyPrefab} field for the Fly prefab.  
+		\item Expose a \texttt{Transform[]} array of spawn points.  
+		\item In \texttt{Start()}, loop through each spawn point and \texttt{Instantiate} the prefab at its position.  
+		\item Log a warning if no prefab or spawn points are assigned.  
+	\end{enumerate}
+	
+	\begin{lstlisting}[language=C]
+		// FlySpawner.cs
+		using UnityEngine;
+		
+		public class FlySpawner : MonoBehaviour
+		{
+			[Tooltip("Assign your Fly prefab here")]
+			public GameObject flyPrefab;
+			
+			[Tooltip("These Transforms mark where flies will appear")]
+			public Transform[] spawnPoints;
+			
+			void Start()
+			{
+				if (flyPrefab == null || spawnPoints.Length == 0)
+				{
+					Debug.LogWarning(
+					"FlySpawner needs a prefab and at least one spawn point.");
+					return;
+				}
+				
+				foreach (Transform point in spawnPoints)
+				{
+					Instantiate(flyPrefab, point.position, Quaternion.identity);
+				}
+			}
+		}
+	\end{lstlisting}
+	
+	\section{Scene Setup}
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Player GameObject}:
+		\begin{itemize}
+			\item Must be tagged \texttt{"Player"}.
+			\item Should have a \texttt{Collider2D} (e.g., \texttt{CircleCollider2D}) and a \texttt{Rigidbody2D}.
+		\end{itemize}
+		\item \textbf{Fly Prefab}:
+		\begin{itemize}
+			\item Add your fly sprite as a GameObject.
+			\item Attach a \texttt{CircleCollider2D} (set \texttt{Is Trigger} = true).
+			\item Attach a \texttt{Rigidbody2D} (Body Type = \texttt{Kinematic}, Gravity Scale = 0).
+			\item Attach the \texttt{FlyMovement.cs} script.
+			\item Tag the prefab (or its instances) as \texttt{"Enemy"} if desired.
+		\end{itemize}
+		\item \textbf{Spawn Points}:
+		\begin{itemize}
+			\item Create empty GameObjects at positions where you want flies to appear.
+			\item Assign these to the \texttt{spawnPoints} array on your \texttt{FlySpawner} component.
+		\end{itemize}
+		\item \textbf{Fly Spawner}:
+		\begin{itemize}
+			\item Create an empty GameObject named \texttt{"FlySpawner"}.
+			\item Attach the \texttt{FlySpawner.cs} script.
+			\item Drag in the Fly prefab and populate the spawn points.
+		\end{itemize}
+		\item \textbf{Testing}:
+		\begin{itemize}
+			\item Press Play. Flies should home in on the player.
+			\item On contact, the scene reloads, simulating player death.
+		\end{itemize}
+	\end{enumerate}
+	
+\end{document}

@@ -1,0 +1,199 @@
+% Setting up the document class and essential packages
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{listings} % For code listings
+\usepackage{xcolor} % For colored code
+\usepackage{parskip} % For paragraph spacing
+\usepackage{enumitem} % For customized lists
+\usepackage{amsmath} % For mathematical symbols if needed
+\usepackage{hyperref} % For clickable links
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% Configuring the listings package for C# code
+\lstset{
+	language=C,
+	basicstyle=\ttfamily\small,
+	keywordstyle=\color{blue}\bfseries,
+	stringstyle=\color{red},
+	commentstyle=\color{olive}\itshape,
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=5pt,
+	showspaces=false,
+	showstringspaces=false,
+	frame=single,
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=4
+}
+
+% Setting up fonts (using Latin Modern for compatibility with PDFLaTeX)
+\usepackage{lmodern}
+
+% Document begins
+\begin{document}
+	
+	\title{3a Adding a Sound Effect to a GameObject in Unity - Collecting a Banana}
+	\author{Nicholas Bruzzese}
+	\date{August 9, 2025}
+	\maketitle
+	
+	\begin{abstract}
+		This document provides a detailed guide for adding a sound effect to a player sprite in Unity when it collects a banana GameObject. The instructions cover importing audio, setting up components, writing C\# scripts, and testing the implementation in a 2D game environment. The process is designed to be robust, reusable, and compatible with Unity's 2D or 3D workflows, with a focus on best practices for audio integration.
+	\end{abstract}
+	
+	\section{Introduction}
+	In Unity, adding sound effects to game events enhances the player experience. This guide details how to play a sound when a player sprite collides with a banana GameObject in a 2D game. The process involves configuring audio components, scripting collision detection, and ensuring proper setup in the Unity Editor. The steps are applicable to Unity versions 2020 and later, using C\# for scripting.
+	
+	\section{Step 1: Preparing the Audio Clip}
+	% Importing the audio file
+	To play a sound when the player collects a banana, an audio file (e.g., \texttt{.wav} or \texttt{.mp3}) is required.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Obtain the Audio File}: Select a short sound effect (e.g., a ``ding'' or ``chime'') suitable for collecting a banana. Free resources like \href{https://freesound.org}{freesound.org} or \href{https://www.zapsplat.com}{zapsplat.com} provide audio clips, or create one using tools like Audacity.
+		\item \textbf{Import into Unity}:
+		\begin{itemize}
+			\item Create an \texttt{Audio} folder in the \texttt{Assets} directory.
+			\item Drag the audio file (e.g., \texttt{banana\_collect.wav}) into the \texttt{Audio} folder or use \texttt{Assets > Import New Asset}.
+			\item In the Inspector, configure import settings:
+			\begin{itemize}
+				\item \textbf{Audio Format}: Set to ``Compressed in Memory'' for smaller files or ``PCM'' for high quality.
+				\item \textbf{Load Type}: Choose ``Decompress On Load'' for short sound effects.
+				\item Click \texttt{Apply} to save settings.
+			\end{itemize}
+		\end{itemize}
+	\end{enumerate}
+	
+	\section{Step 2: Adding an AudioSource Component}
+	% Configuring the AudioSource
+	The \texttt{AudioSource} component plays audio clips in Unity. Attach it to the player GameObject.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Select the Player GameObject}: In the Hierarchy, locate the player sprite (e.g., named ``Player''). Ensure it has a \texttt{SpriteRenderer} and a \texttt{Collider2D} (e.g., \texttt{BoxCollider2D}) set to \texttt{Is Trigger}.
+		\item \textbf{Add AudioSource}:
+		\begin{itemize}
+			\item Select the player GameObject, click \texttt{Add Component}, and choose \texttt{Audio Source}.
+			\item Configure settings:
+			\begin{itemize}
+				\item \textbf{Audio Clip}: Leave empty (assigned in script).
+				\item \textbf{Play On Awake}: Uncheck to prevent automatic playback.
+				\item \textbf{Spatial Blend}: Set to 0 (2D) for uniform sound in 2D games.
+				\item \textbf{Volume}: Set to 1 (adjust as needed).
+				\item \textbf{Loop}: Uncheck for one-time playback.
+			\end{itemize}
+		\end{itemize}
+	\end{enumerate}
+	
+	\section{Step 3: Setting Up the Banana GameObject}
+	% Configuring the banana
+	The banana requires a \texttt{Collider2D} for collision detection and a tag for identification.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Select or Create Banana GameObject}:
+		\begin{itemize}
+			\item Locate or create a banana GameObject (\texttt{2D Object > Sprite}, assign a banana sprite).
+			\item Add a \texttt{Collider2D} (e.g., \texttt{CircleCollider2D}), set \texttt{Is Trigger}, and adjust its size.
+		\end{itemize}
+		\item \textbf{Tag the Banana}:
+		\begin{itemize}
+			\item In the Inspector, set the tag to ``Banana'' (create via \texttt{Tag > Add Tag} if needed).
+		\end{itemize}
+	\end{enumerate}
+	\newpage
+	\section{Step 4: Writing the Script}
+	% Writing the C# script
+	A C\# script detects collisions and plays the sound. Below is the script, saved as \texttt{PlayerCollect.cs}.
+	
+	\begin{lstlisting}
+		using UnityEngine;
+		
+		public class PlayerCollect : MonoBehaviour
+		{
+			private AudioSource audioSource;
+			public AudioClip bananaCollectSound;
+			
+			void Start()
+			{
+				audioSource = GetComponent<AudioSource>();
+				if (audioSource == null)
+				{
+					Debug.LogError("No AudioSource component found!");
+				}
+			}
+			
+			void OnTriggerEnter2D(Collider2D other)
+			{
+				if (other.CompareTag("Banana"))
+				{
+					if (bananaCollectSound != null && audioSource != null)
+					{
+						audioSource.PlayOneShot(bananaCollectSound);
+					}
+					else
+					{
+						Debug.LogWarning("Banana collect sound or AudioSource missing!");
+					}
+					Destroy(other.gameObject);
+				}
+			}
+		}
+	\end{lstlisting}
+	
+	\begin{itemize}
+		\item \textbf{Attach Script}: Add \texttt{PlayerCollect} to the player GameObject via \texttt{Add Component}.
+		\item \textbf{Assign Audio Clip}: Drag \texttt{banana\_collect.wav} to the \texttt{Banana Collect Sound} field in the Inspector.
+	\end{itemize}
+	
+	\section{Step 5: Testing the Implementation}
+	% Testing the setup
+	Test the scene to ensure the sound plays and the banana is collected.
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Scene Setup}:
+		\begin{itemize}
+			\item Player: \texttt{SpriteRenderer}, \texttt{Rigidbody2D}, \texttt{Collider2D} (trigger), \texttt{AudioSource}, \texttt{PlayerCollect}.
+			\item Banana: \texttt{SpriteRenderer}, \texttt{Collider2D} (trigger), tagged ``Banana''.
+		\end{itemize}
+		\item \textbf{Play and Test}:
+		\begin{itemize}
+			\item Press \texttt{Play}, move the player to the banana, and verify the sound plays and the banana disappears.
+			\item Check the Console for errors (e.g., missing components).
+		\end{itemize}
+		\item \textbf{Debugging}:
+		\begin{itemize}
+			\item \textbf{No Sound}: Check \texttt{AudioSource} volume, clip assignment, and banana tag.
+			\item \textbf{No Collision}: Ensure colliders are triggers and overlap in the Scene view.
+		\end{itemize}
+	\end{enumerate}
+	
+	\section{Step 6: Optional Enhancements}
+	% Enhancing the audio
+	Improve the audio experience with these optional steps:
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item \textbf{Adjust Volume/Pitch}: Set \texttt{AudioSource} volume (e.g., 0.7) or pitch (e.g., 1.2) in the Inspector or script for randomization:
+		\begin{lstlisting}
+			audioSource.PlayOneShot(bananaCollectSound, Random.Range(0.8f, 1.0f));
+			audioSource.pitch = Random.Range(0.9f, 1.1f);
+		\end{lstlisting}
+		\item \textbf{Audio Mixer}: Create an \texttt{Audio Mixer} (\texttt{Assets > Create > Audio Mixer}) and assign the \texttt{AudioSource} to a mixer group for volume control.
+		\item \textbf{Visual Feedback}: Add a \texttt{ParticleSystem} for collection effects, instantiated before destroying the banana.
+	\end{enumerate}
+	
+	\section{Step 7: Best Practices}
+	% Optimizing the implementation
+	\begin{itemize}
+		\item \textbf{Organize Assets}: Store audio in \texttt{Audio}, scripts in \texttt{Scripts}, and sprites in \texttt{Sprites}.
+		\item \textbf{Reuse AudioSource}: Use one \texttt{AudioSource} for multiple sounds.
+		\item \textbf{Object Pooling}: Replace \texttt{Destroy} with \texttt{SetActive(false)} for performance.
+		\item \textbf{Test Platforms}: Verify audio on target platforms (e.g., Windows, Android).
+	\end{itemize}
+	
+	\section{Conclusion}
+	This guide provides a complete workflow for adding a sound effect to a player sprite collecting a banana in Unity. The script is reusable for other collectibles, and the setup is adaptable for 2D or 3D games. For advanced features or API integration, refer to \href{https://x.ai/api}{xAI's API documentation}.
+	
+\end{document}
