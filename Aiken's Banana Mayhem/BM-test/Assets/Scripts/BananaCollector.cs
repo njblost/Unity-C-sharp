@@ -9,6 +9,10 @@ public class BananaCollector : MonoBehaviour
     public int score = 0;
     public Text scoreText;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioClip bananaCollectSfx;
+
     void Awake()
     {
         if (Instance == null)
@@ -27,6 +31,14 @@ public class BananaCollector : MonoBehaviour
         else
         {
             Debug.LogWarning("ScoreText is NULL!");
+        }
+
+        if (bananaCollectSfx != null)
+        {
+            if (sfxSource != null)
+                sfxSource.PlayOneShot(bananaCollectSfx);
+            else
+                AudioSource.PlayClipAtPoint(bananaCollectSfx, Camera.main.transform.position);
         }
     }
 }
