@@ -1,5 +1,5 @@
-Unity Editor version:    6000.2.7f2 (2b518236b676)
-Branch:                  6000.2/respin/6000.2.7f1-2eb0c79396db
+Unity Editor version:    6000.2.9f1 (e0c4e791ab71)
+Branch:                  6000.2/staging
 Build type:              Release
 Batch mode:              YES
 macOS version:           Version 26.0.1 (Build 25A362)
@@ -7,12 +7,12 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        65536 MB
-Date:                    2025-10-11T01:30:28Z
+Date:                    2025-10-31T06:59:44Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost" at "2025-10-11T01:30:28.681848Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost" at "2025-10-31T06:59:44.857717Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56550
+60439
 -licensingIpc
 LicenseClient-njblost
 -job-worker-count
@@ -70,12 +70,12 @@ Successfully changed project path to: /Users/njblost/GitHub/Unity-C-sharp/Duck G
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8400750592]  Target information:
+Player connection [8453097472]  Target information:
 
-Player connection [8400750592]  * "[IP] 192.168.68.62 [Port] 0 [Flags] 2 [Guid] 363204237 [EditorId] 363204237 [Version] 1048832 [Id] OSXEditor(0,NJSMS4.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8453097472]  * "[IP] 192.168.68.62 [Port] 0 [Flags] 2 [Guid] 3220102138 [EditorId] 3220102138 [Version] 1048832 [Id] OSXEditor(0,NJSMS4.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8400750592] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8400750592] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8453097472] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8453097472] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,10 +87,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.2.7f2 (2b518236b676)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/njblost/GitHub/Unity-C-sharp/Duck Game Testing/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M4 Max (high power)
@@ -105,31 +105,31 @@ Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56026
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56057
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24793, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32024, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              28c9eb0eddb7462da277647825665bfd
-  Correlation Id:          9d439d4ad0bb4ca5d7b96ab0dc410bfd
-  External correlation Id: 3322889884641891691
+  Session Id:              53c55743ef6a440393600d98e58dc3d1
+  Correlation Id:          8b335305b50fa2929a9d7c58b38edb10
+  External correlation Id: 801285082221649778
   Machine Id:              e+BY92tPuMkyqGh88SU+MDC6QXI=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-njblost" (connect: 0.00s, validation: 0.00s, handshake: 0.30s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost-notifications" at "2025-10-11T01:30:28.977937Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost-notifications" at "2025-10-31T06:59:45.156988Z"
 [Licensing::Module] Licensing Background thread has ended after 0.30s
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000243 seconds.
-- Loaded All Assemblies, in  0.158 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000233 seconds.
+- Loaded All Assemblies, in  0.157 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.179 seconds
-Domain Reload Profiling: 337ms
-	BeginReloadAssembly (34ms)
+- Finished resetting the current domain, in  0.174 seconds
+Domain Reload Profiling: 331ms
+	BeginReloadAssembly (35ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -137,29 +137,32 @@ Domain Reload Profiling: 337ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
+	initialDomainReloadingComplete (20ms)
 	LoadAllAssembliesAndSetupDomain (78ms)
-		LoadAssemblies (34ms)
+		LoadAssemblies (35ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (77ms)
 			TypeCache.Refresh (76ms)
 				TypeCache.ScanAssembly (69ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (179ms)
+	FinalizeReload (174ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (157ms)
+		SetupLoadedEditorAssemblies (153ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (67ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (65ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -170,69 +173,53 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.249 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.241 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 464ms
+- Finished resetting the current domain, in  0.212 seconds
+Domain Reload Profiling: 453ms
 	BeginReloadAssembly (57ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
+		CreateAndSetChildDomain (12ms)
 	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (149ms)
-		LoadAssemblies (99ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (72ms)
-			TypeCache.Refresh (55ms)
-				TypeCache.ScanAssembly (48ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (53ms)
+				TypeCache.ScanAssembly (47ms)
 			BuildScriptInfoCaches (13ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (216ms)
+	FinalizeReload (212ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (166ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (2ms)
 			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (88ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (1ms)
-Launching external process: /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4040 unused Assets / (0.8 MB). Loaded Objects now: 4535.
-Memory consumption went from 88.7 MB to 87.9 MB.
-Total: 3.429041 ms (FindLiveObjects: 0.170792 ms CreateObjectMapping: 0.059208 ms MarkObjects: 2.740042 ms  DeleteObjects: 0.458708 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 155182.203783 seconds.
-  path: Assets/Sprites/Companions/20251011_1222_Chibi Boy Sprite Sheet_simple_compose_01k78dpyrgets8h80hvnnq7dpq.png
-  artifactKey: Guid(c3fed0754197342a4bf28d52a6ecd71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Companions/20251011_1222_Chibi Boy Sprite Sheet_simple_compose_01k78dpyrgets8h80hvnnq7dpq.png using Guid(c3fed0754197342a4bf28d52a6ecd71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45a123cd0f2577eb22512b851b81b45d') in 0.127304542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 498.365917 seconds.
-  path: Assets/Sprites/Companions/Player.png
-  artifactKey: Guid(e5b226b2477b846d69522151001a3552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Companions/Player.png using Guid(e5b226b2477b846d69522151001a3552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter) -> (artifact id: 'e137746b42328ad022d4b77bbc5e3828') in 0.086129916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+Unloading 4040 unused Assets / (0.7 MB). Loaded Objects now: 4536.
+Memory consumption went from 91.0 MB to 90.3 MB.
+Total: 3.329917 ms (FindLiveObjects: 0.158875 ms CreateObjectMapping: 0.066583 ms MarkObjects: 2.678625 ms  DeleteObjects: 0.425667 ms)
 

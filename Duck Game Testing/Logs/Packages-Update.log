@@ -62,3 +62,12 @@ The following packages were updated:
   com.unity.visualscripting from version 1.9.1 to 1.9.7
 The following packages were removed:
   com.unity.textmeshpro@3.0.6
+
+=== Tue Oct 28 10:54:14 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.visualstudio from version 2.0.23 to 2.0.25
+  com.unity.visualscripting from version 1.9.7 to 1.9.8
