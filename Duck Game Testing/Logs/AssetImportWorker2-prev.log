@@ -1,0 +1,2140 @@
+Unity Editor version:    6000.3.0f1 (d1870ce95baf)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.1 (Build 25B78)
+Darwin version:          25.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Date:                    2025-12-06T00:22:49Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost" at "2025-12-06T00:22:49.445197Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/njblost/GitHub/Unity-C-sharp/Duck Game Testing
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52251
+-licensingIpc
+LicenseClient-njblost
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/njblost/GitHub/Unity-C-sharp/Duck Game Testing
+/Users/njblost/GitHub/Unity-C-sharp/Duck Game Testing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8446648448]  Target information:
+
+Player connection [8446648448]  * "[IP] 192.168.68.74 [Port] 0 [Flags] 2 [Guid] 3084789903 [EditorId] 3084789903 [Version] 1048832 [Id] OSXEditor(0,NJSMS4.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8446648448]  * "[IP] 169.254.4.38 [Port] 0 [Flags] 2 [Guid] 3084789903 [EditorId] 3084789903 [Version] 1048832 [Id] OSXEditor(0,NJSMS4.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8446648448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8446648448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.0f1 (d1870ce95baf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/njblost/GitHub/Unity-C-sharp/Duck Game Testing/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M4 Max (high power)
+Metal devices available: 1
+0: Apple M4 Max (high power)
+Using device Apple M4 Max (high power)
+Initializing Metal device caps: Apple M4 Max
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000323 seconds.
+- Loaded All Assemblies, in  0.169 seconds
+Native extension for OSXStandalone target not found
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-njblost"
+[Licensing::IpcConnector] LicenseClient-njblost channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost-6000.3.0" at "2025-12-06T00:22:49.997311Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 5764, path: "/Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Helpers/UnityLicensingClient.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              652aedcc19e04244b69cef148b00cf3d
+  Correlation Id:          c3d953101e0b967c393594dacaedc0d2
+  External correlation Id: 7863394150889998503
+  Machine Id:              e+BY92tPuMkyqGh88SU+MDC6QXI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-njblost-6000.3.0" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-njblost-6000.3.0-notifications" at "2025-12-06T00:22:50.003165Z"
+[Licensing::Module] Licensing Background thread has ended after 0.56s
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 376ms
+	BeginReloadAssembly (39ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (39ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (76ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16767753109163-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.265 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (49ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (238ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.0f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4485 unused Assets / (1.0 MB). Loaded Objects now: 5072.
+Memory consumption went from 95.7 MB to 94.8 MB.
+Total: 4.180584 ms (FindLiveObjects: 0.200875 ms CreateObjectMapping: 0.082042 ms MarkObjects: 3.436333 ms  DeleteObjects: 0.461042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44679.201547 seconds.
+  path: Assets/Scripts/MovementController.cs
+  artifactKey: Guid(e6d67c0d6b9594ecdb300ae300de8648) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/MovementController.cs using Guid(e6d67c0d6b9594ecdb300ae300de8648) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9d861188be76640a1fb4f0de78a911a3') in 0.0516525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_5.asset
+  artifactKey: Guid(e94cc52fc47ff43d48d131cd5b71da1c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_5.asset using Guid(e94cc52fc47ff43d48d131cd5b71da1c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '430f2b9909d4bc788d4cb89103ab9db8') in 0.013817209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_16.asset
+  artifactKey: Guid(f361da2b15b4e4b138c05673cd949f96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_16.asset using Guid(f361da2b15b4e4b138c05673cd949f96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '84d3134c7cbd872c49f06f69a6339ab7') in 0.001649167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_21.asset
+  artifactKey: Guid(88295e5c0ad0448d8a62f36caa275b8e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_21.asset using Guid(88295e5c0ad0448d8a62f36caa275b8e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'bf3174029636905fab4a56ef6862eef5') in 0.001106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_38.asset
+  artifactKey: Guid(59e22b5be6fa742caad7174a8dc4c380) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_38.asset using Guid(59e22b5be6fa742caad7174a8dc4c380) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4e6b5f7d85904c8c4398b6d6f9a505d2') in 0.000986291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Animations/Animations/duck-walk-south.anim
+  artifactKey: Guid(f6ccc7bce5f3e4591aabf74286c45ef2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Animations/Animations/duck-walk-south.anim using Guid(f6ccc7bce5f3e4591aabf74286c45ef2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2631d3c1b0da1a9d9dc0788fa8f70ca5') in 0.005429292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Animations/Animations/duck-walk-west.anim
+  artifactKey: Guid(4ad1e4eea771c477ba6526c235516df4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Animations/Animations/duck-walk-west.anim using Guid(4ad1e4eea771c477ba6526c235516df4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '36c29e1be451cf908730c8fdef9109b1') in 0.001025667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_11.asset
+  artifactKey: Guid(cc6bc640ad6e449acae80be13131467f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_11.asset using Guid(cc6bc640ad6e449acae80be13131467f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '10badf6d4f80201a9102c2a2e85d94f2') in 0.001002916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Animations/Animations/enemy-idle-1.anim
+  artifactKey: Guid(191ad9ca1412d475cadc95dea7d0b6ee) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Animations/Animations/enemy-idle-1.anim using Guid(191ad9ca1412d475cadc95dea7d0b6ee) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f34a5c77d519b498837e7c744c144dfc') in 0.0009255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_45.asset
+  artifactKey: Guid(fdcfb68e9e1e94297971304ac397c7c1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_45.asset using Guid(fdcfb68e9e1e94297971304ac397c7c1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '90e7712404d5aeead7c8e1a7f3543d6b') in 0.000964417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_110.asset
+  artifactKey: Guid(6dcadbca8bad148c7b7ba397fa52def7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_110.asset using Guid(6dcadbca8bad148c7b7ba397fa52def7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '34ade5a275b347e0ca70b173669957cf') in 0.000930459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_18.asset
+  artifactKey: Guid(af8550f88e3984ac0866282a51fd9914) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_18.asset using Guid(af8550f88e3984ac0866282a51fd9914) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a1f942ffb96db84799ac2719655b9384') in 0.001114666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_31.asset
+  artifactKey: Guid(d4ae4cfecfbde40b2a39ffec358d5b7e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_31.asset using Guid(d4ae4cfecfbde40b2a39ffec358d5b7e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '09195ae854ff5e3643e716d095789cb2') in 0.000990417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_22.asset
+  artifactKey: Guid(9b11ade39115f4328a61e64a9fe24645) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_22.asset using Guid(9b11ade39115f4328a61e64a9fe24645) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5eaf254f3810337efbf58c836f3a2d81') in 0.001145208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_106.asset
+  artifactKey: Guid(91f2e40aeef5140e897aecece79cefd4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_106.asset using Guid(91f2e40aeef5140e897aecece79cefd4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '19bf29eb1063572613ce38c6880f8c54') in 0.001006792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Animations/Animations/player-walk-west.anim
+  artifactKey: Guid(c6f3b68bbbbc84092b1a96b73e0e8c31) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Animations/Animations/player-walk-west.anim using Guid(c6f3b68bbbbc84092b1a96b73e0e8c31) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '49b8d60706d56b3379194cc7a1d7b98d') in 0.000895458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_116.asset
+  artifactKey: Guid(4751ef9c6a1494b42bd81d55a581aa80) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_116.asset using Guid(4751ef9c6a1494b42bd81d55a581aa80) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2a14022375096c0dc0d680ffcbcd3184') in 0.001549917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_23.asset
+  artifactKey: Guid(91ee5a7c50c4547de8bcf4004009e1a0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_23.asset using Guid(91ee5a7c50c4547de8bcf4004009e1a0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9db2f1fd690c3ece323893aa46d3914e') in 0.001081041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_104.asset
+  artifactKey: Guid(a66c16d51a92c45deacba33c66ba92d9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_104.asset using Guid(a66c16d51a92c45deacba33c66ba92d9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8884ca4b362e7fcb96e060cd0a3e21d3') in 0.001047375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_41.asset
+  artifactKey: Guid(f33c7f7034a2744ec84f3a48b5357309) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_41.asset using Guid(f33c7f7034a2744ec84f3a48b5357309) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4f585b2215beb75b5305be2c9d7769c2') in 0.001191125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/Companions/duck.png
+  artifactKey: Guid(e5ebaab36983d4e6b8f8dbac8debec02) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Companions/duck.png using Guid(e5ebaab36983d4e6b8f8dbac8debec02) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ffe0dd0eb5cd46c6c1ce7d0fe87b6d62') in 0.023020792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_17.asset
+  artifactKey: Guid(88b611c43285542efbb24de497ab0dcd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_17.asset using Guid(88b611c43285542efbb24de497ab0dcd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0faedf1b8ee4b9cd46e4d33b10cf866e') in 0.001266542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprites/Player/player.png
+  artifactKey: Guid(a4f607cc3c13f4620a892dd67d718487) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Player/player.png using Guid(a4f607cc3c13f4620a892dd67d718487) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4bf47ca045754939851748db55857eef') in 0.008941459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_40.asset
+  artifactKey: Guid(4adcee6d19f844796abea32da62fe642) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_40.asset using Guid(4adcee6d19f844796abea32da62fe642) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ff07c932e4aff8bd1888f261fb3e74bd') in 0.001405917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_43.asset
+  artifactKey: Guid(da367a86fcecb497f820e88e6d98f362) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_43.asset using Guid(da367a86fcecb497f820e88e6d98f362) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '848241248dd1b58dace6c675e389b304') in 0.000931166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs.png
+  artifactKey: Guid(6aead06aea46141b387e8538afeb1c28) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs.png using Guid(6aead06aea46141b387e8538afeb1c28) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e7cd5cd8ae425eb6ad7c66228f20fe4b') in 0.014038916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_30.asset
+  artifactKey: Guid(1a2ffa8774de34d3eb5789c8c7a11d53) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_30.asset using Guid(1a2ffa8774de34d3eb5789c8c7a11d53) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1ddd7a22e1d9e646dd9f3aab0d43a7f9') in 0.001158292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_47.asset
+  artifactKey: Guid(4a041adf6066f4c8b8af97cc80f60452) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_47.asset using Guid(4a041adf6066f4c8b8af97cc80f60452) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e59ca309e05040b9f9d1f03ddc3ee159') in 0.000902584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Prefabs/PlayerObject.prefab
+  artifactKey: Guid(7329bce295da74da4891e8bb6e058e4f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Prefabs/PlayerObject.prefab using Guid(7329bce295da74da4891e8bb6e058e4f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e01b9d78c32d45452c9fd9b220f98894') in 0.014421459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '260532509bcc6de558e8c2b05610c939') in 0.000655042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/Outdoors/Topdown RPG 32x32 - Nature Details.png
+  artifactKey: Guid(34b01df38781d455e8201ff4e78f9ae9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Outdoors/Topdown RPG 32x32 - Nature Details.png using Guid(34b01df38781d455e8201ff4e78f9ae9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8a381f25fc1ccf4f3129510bc98e8189') in 0.020999541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004128 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_33.asset
+  artifactKey: Guid(6a39afa5e944d48b6991eefddd8c5b0f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_33.asset using Guid(6a39afa5e944d48b6991eefddd8c5b0f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ac4a3466a0f5c33cb267f188f25f1fb3') in 0.001190959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_28.asset
+  artifactKey: Guid(d30479e0728b6439b8d871d55bc934f5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_28.asset using Guid(d30479e0728b6439b8d871d55bc934f5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'efd5a1b5c0c2e927c8fe2dd486e1621f') in 0.001617208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_39.asset
+  artifactKey: Guid(8e9d8ba0fe13d4975bf8daa8e5beaa37) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_39.asset using Guid(8e9d8ba0fe13d4975bf8daa8e5beaa37) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cf69bbad67449380484d8369e93c5489') in 0.000997875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_44.asset
+  artifactKey: Guid(2108473afde7c4dacaa700ffd08ff2c8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_44.asset using Guid(2108473afde7c4dacaa700ffd08ff2c8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a5fbca389a61e84a55dda048485e34dc') in 0.00110825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_50.asset
+  artifactKey: Guid(3a889383b624c414e8891eb2e352aff7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_50.asset using Guid(3a889383b624c414e8891eb2e352aff7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'af605aae99b29f5576869bcc74b4e72f') in 0.000990167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008311 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_111.asset
+  artifactKey: Guid(e27c0234dfb20426e9f026323760e25e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_111.asset using Guid(e27c0234dfb20426e9f026323760e25e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3140cce9d18fc06e6ef74a0f5505924b') in 0.00135875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_24.asset
+  artifactKey: Guid(3fda39d9f0851475b85b332c1947c5b5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_24.asset using Guid(3fda39d9f0851475b85b332c1947c5b5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'adea2ded6679cd2831c136ff8241f19f') in 0.001320792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Animations/Controllers/DuckController.controller
+  artifactKey: Guid(07ffbbe97f2f642aa929ab17cb0b40ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Animations/Controllers/DuckController.controller using Guid(07ffbbe97f2f642aa929ab17cb0b40ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9019cbf3ca328dc6a5ac9935f9dbca29') in 0.000999125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_36.asset
+  artifactKey: Guid(58dc1b4c2cfc5431ebfbaf8098cd4c6d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_36.asset using Guid(58dc1b4c2cfc5431ebfbaf8098cd4c6d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '649692409b41b2f19d2707e765a68470') in 0.001226584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041187 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_53.asset
+  artifactKey: Guid(6b68ff8717e7d4725a1503c927c15c6b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_53.asset using Guid(6b68ff8717e7d4725a1503c927c15c6b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9502fbb27f910d27eced0ab3191e4bfc') in 0.001708625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_18.asset
+  artifactKey: Guid(e9285daaa069842b7ba64a0f719e7aab) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_18.asset using Guid(e9285daaa069842b7ba64a0f719e7aab) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '49082a890c5d3190f246620447ead135') in 0.00126875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_111.asset
+  artifactKey: Guid(660c6a9ee70b246a59d4d0355e4d0a31) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_111.asset using Guid(660c6a9ee70b246a59d4d0355e4d0a31) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8d87b81a275405410ce4b28ee869d32a') in 0.00115025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_65.asset
+  artifactKey: Guid(91123b76416c543b79d082637c77e5c5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_65.asset using Guid(91123b76416c543b79d082637c77e5c5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '484529027628a79213fd4bd9c7428cbc') in 0.001250791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010038 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_62.asset
+  artifactKey: Guid(94e94d13d25ed4ba3b25e193f4f5a842) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_62.asset using Guid(94e94d13d25ed4ba3b25e193f4f5a842) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '52ee3e961bdc3572fce7aff042c33d0f') in 0.001653292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001173 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_122.asset
+  artifactKey: Guid(1de580e9da93140feb926c1b9d0998ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_122.asset using Guid(1de580e9da93140feb926c1b9d0998ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c845502e30ccd84f5fab2c491ecac73f') in 0.001488541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_59.asset
+  artifactKey: Guid(646167ec148944987a554d8657bcc2fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_59.asset using Guid(646167ec148944987a554d8657bcc2fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5109e5f6fb9828442fe4ade9d992993e') in 0.001276334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_73.asset
+  artifactKey: Guid(c9caaf57c16e647fda8e3f9243381bd5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_73.asset using Guid(c9caaf57c16e647fda8e3f9243381bd5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '02f4f09cee9ee05804b1b73c49e3fbcb') in 0.001170042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_81.asset
+  artifactKey: Guid(d9f97a5de81554840bdc4b1f60cc5f6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_81.asset using Guid(d9f97a5de81554840bdc4b1f60cc5f6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'baff037f59bf27d174c4c4fa939dc85a') in 0.00174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010903 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_120.asset
+  artifactKey: Guid(19e73d16235ee4205b0164e5490f0bc3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_120.asset using Guid(19e73d16235ee4205b0164e5490f0bc3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e73a3597fd6669f0cb443a38c5a6a7cf') in 0.001555792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_23.asset
+  artifactKey: Guid(7368cacb76a414c39baff19e0877c8a3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_23.asset using Guid(7368cacb76a414c39baff19e0877c8a3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0c500acbc629c6b252ea3ea28e32a362') in 0.001326208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_8.asset
+  artifactKey: Guid(9be0dae9f863e4426b39df7b33c31dcb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_8.asset using Guid(9be0dae9f863e4426b39df7b33c31dcb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a5ee60abaf7551a08edf41e5d8e667d5') in 0.00156325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_22.asset
+  artifactKey: Guid(67f0bef36a50c4d2186154fdd1e66afd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_22.asset using Guid(67f0bef36a50c4d2186154fdd1e66afd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ce65f72d72e0418976fbc411be0119aa') in 0.001423583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_114.asset
+  artifactKey: Guid(44c1871c1913b4deda2c49daccfb1af2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_114.asset using Guid(44c1871c1913b4deda2c49daccfb1af2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '82d546346ae941f4572df53cabbfca0e') in 0.001229958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_108.asset
+  artifactKey: Guid(96634f544f4ac4b1794c6b81eb4e6c1d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_108.asset using Guid(96634f544f4ac4b1794c6b81eb4e6c1d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9cd8e350a18c10eb948e17490e40f380') in 0.001125542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_68.asset
+  artifactKey: Guid(92f251c429b8249628f4fbdab1e7c982) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_68.asset using Guid(92f251c429b8249628f4fbdab1e7c982) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b81ea1588820929c0281188fa4d5ad66') in 0.001152375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_130.asset
+  artifactKey: Guid(14dc36b46cbdf4d01b6dd74af1690521) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_130.asset using Guid(14dc36b46cbdf4d01b6dd74af1690521) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4b545b4aa0392ba5c7d683a99254a4ae') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_129.asset
+  artifactKey: Guid(802847c57377f4032a304592a0f4d7fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_129.asset using Guid(802847c57377f4032a304592a0f4d7fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7d13e18f53c5bf3ecc6b9567da959393') in 0.001518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_107.asset
+  artifactKey: Guid(a325f878bc9eb48b19ddec2d5cb3eeca) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_107.asset using Guid(a325f878bc9eb48b19ddec2d5cb3eeca) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '22195aca65e0f1151075baed0eb6b0d6') in 0.001483375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_60.asset
+  artifactKey: Guid(2930b83a51b704ad185297fe0366b714) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_60.asset using Guid(2930b83a51b704ad185297fe0366b714) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd8d1cb0d82c14d68590f476ac056a40c') in 0.00140775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_63.asset
+  artifactKey: Guid(aff1e539ee26c4a72a59d49211329149) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_63.asset using Guid(aff1e539ee26c4a72a59d49211329149) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'fcbe6123229bf71a1a457a6b081d21bb') in 0.0012355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_61.asset
+  artifactKey: Guid(d9bf26723e4524f62906bd6b567cad20) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_61.asset using Guid(d9bf26723e4524f62906bd6b567cad20) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd037c4934977537220738e7d1921dd1a') in 0.001411166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_79.asset
+  artifactKey: Guid(e95a67d7778954f9fb8f9518003a88c0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_79.asset using Guid(e95a67d7778954f9fb8f9518003a88c0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a18fd1a0e28fa80e203032588ecd4710') in 0.002085333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_127.asset
+  artifactKey: Guid(dfbfc1d60623b4d7d8ed7f11d6a0d65e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_127.asset using Guid(dfbfc1d60623b4d7d8ed7f11d6a0d65e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ca629859caa444a49cdebdb0b2bf05bf') in 0.001564292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_128.asset
+  artifactKey: Guid(bfb59f8209b1a42e79410a8a83879524) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_128.asset using Guid(bfb59f8209b1a42e79410a8a83879524) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cb68bf1bf0b9f377a9becdbc77637daa') in 0.00150425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_126.asset
+  artifactKey: Guid(258eb40270d5849a6bd4eb08cb311530) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_126.asset using Guid(258eb40270d5849a6bd4eb08cb311530) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8a89bd53febd915344082f6059b23bf2') in 0.001380291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_103.asset
+  artifactKey: Guid(fbf2c05c61d62482f9611dd82a0dc762) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_103.asset using Guid(fbf2c05c61d62482f9611dd82a0dc762) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1a19d39c91b194230ebff0c59cfc84a4') in 0.001415333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_67.asset
+  artifactKey: Guid(3d932864b8ff84879a387a3f2bc77f7f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_67.asset using Guid(3d932864b8ff84879a387a3f2bc77f7f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '33a496faf0e19878f5cfa1b1afcffe15') in 0.001378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_106.asset
+  artifactKey: Guid(03aee4ca2882e443a8d154337798c982) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_106.asset using Guid(03aee4ca2882e443a8d154337798c982) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '23541b8101b1eacbe2c1c7ee2c8c63e9') in 0.001239875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_13.asset
+  artifactKey: Guid(6f3b3c5f7efd94f7fb1a2a51467bf47c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_13.asset using Guid(6f3b3c5f7efd94f7fb1a2a51467bf47c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'bc7017107c19408a4d5f7d5aabe8e40e') in 0.001139333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_57.asset
+  artifactKey: Guid(790130b91ced7409b81ace7c006af079) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_57.asset using Guid(790130b91ced7409b81ace7c006af079) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '53f7105e2f7508322ac91e03c4db9c5b') in 0.0011965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_71.asset
+  artifactKey: Guid(3e9cbac37c25f46bbae53edfbce863b4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Bushes 1.1_71.asset using Guid(3e9cbac37c25f46bbae53edfbce863b4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '021d2a2df92652527f385553914d0498') in 0.001141792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.954242 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_24.asset
+  artifactKey: Guid(fa68a754997c74b459c2ab0872758d02) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_24.asset using Guid(fa68a754997c74b459c2ab0872758d02) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4d3dae35d45bc8c0ced296faa470f17a') in 0.002137291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_15.asset
+  artifactKey: Guid(79b298a8ef2c5410ea8cb4d3d8feb17e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_15.asset using Guid(79b298a8ef2c5410ea8cb4d3d8feb17e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'fed4ee4a07c0355258369b340cfc27d8') in 0.001519625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_52.asset
+  artifactKey: Guid(77ae08bb776e44b9a9a16448600ddd39) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_52.asset using Guid(77ae08bb776e44b9a9a16448600ddd39) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8c903708a0b6970745b37535a1e7caa4') in 0.001524625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_74.asset
+  artifactKey: Guid(d423c6bed6cec441f97671049dbe9fdc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_74.asset using Guid(d423c6bed6cec441f97671049dbe9fdc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '684e83d89753f1dd61bed3f760b8913e') in 0.001371459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_48.asset
+  artifactKey: Guid(7e72f7ad03acf423a8af6fa97074dd1b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_48.asset using Guid(7e72f7ad03acf423a8af6fa97074dd1b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '220676ecefde98f88919a7869bcf3426') in 0.0014745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_54.asset
+  artifactKey: Guid(f6fba164e401e49048067ee2743f6d2e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_54.asset using Guid(f6fba164e401e49048067ee2743f6d2e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e750b9cf260a95c868eb80c5c711180e') in 0.002317542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_20.asset
+  artifactKey: Guid(22f4ac333cc204744a38a7c14f42265a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_20.asset using Guid(22f4ac333cc204744a38a7c14f42265a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '50867cb2829aec88aa676013d303e04b') in 0.0014505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_69.asset
+  artifactKey: Guid(ac31f6876e7bb4e1e8f83b416e2ce255) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_69.asset using Guid(ac31f6876e7bb4e1e8f83b416e2ce255) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '85ea43eac2952a3599a43a477f81b6e0') in 0.001448875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_47.asset
+  artifactKey: Guid(66767c3555ee04920ad196e7550c3b68) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_47.asset using Guid(66767c3555ee04920ad196e7550c3b68) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a5715323479626f0f7906bbe8835465b') in 0.00142675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_41.asset
+  artifactKey: Guid(fb380d55853ba42c7b1ca50a76618c22) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_41.asset using Guid(fb380d55853ba42c7b1ca50a76618c22) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '03d2e4b6dec62f83871e951a1a778c3e') in 0.001347292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_4.asset
+  artifactKey: Guid(a49a0d818040e45c0932a140c29bd28c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_4.asset using Guid(a49a0d818040e45c0932a140c29bd28c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '93b392e5406b52e45588bbd14ce30fb3') in 0.001514334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_27.asset
+  artifactKey: Guid(2c0d47ccea47e4e5eac29b23803b3371) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_27.asset using Guid(2c0d47ccea47e4e5eac29b23803b3371) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '47d0b9e75c7e81a73b2700b12ce5c014') in 0.001430375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_38.asset
+  artifactKey: Guid(471c1a874868b47309c0329d4f5e7c9d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_38.asset using Guid(471c1a874868b47309c0329d4f5e7c9d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '92b0353e71cc072b55daa388c6bbc705') in 0.001298375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_3.asset
+  artifactKey: Guid(42dc882445df645e392332b44d43f2ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_3.asset using Guid(42dc882445df645e392332b44d43f2ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e5bd03400d47612918052ccc01fe8da1') in 0.001529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_64.asset
+  artifactKey: Guid(499d21a6c2db24e0398de71d75a8e0a3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_64.asset using Guid(499d21a6c2db24e0398de71d75a8e0a3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e760a2d8523dc036e2e7ee0286170b77') in 0.001441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_9.asset
+  artifactKey: Guid(6c67326c414b64685b51b3b7780e0c12) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_9.asset using Guid(6c67326c414b64685b51b3b7780e0c12) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9177d35961abd9630a4f2db97942dc57') in 0.001652083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_92.asset
+  artifactKey: Guid(d7195614c10ee4079885ed55de4d9dcd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_92.asset using Guid(d7195614c10ee4079885ed55de4d9dcd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2e06a104597c4d68252694d0eeab3529') in 0.001327459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_20.asset
+  artifactKey: Guid(d126679421afe4883a24a1d4caae25ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_20.asset using Guid(d126679421afe4883a24a1d4caae25ac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7e56b871ce0e72fe54bf9eb987ba7621') in 0.001205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_78.asset
+  artifactKey: Guid(56c880fcdd9044ec3a0552584a6ad1a5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_78.asset using Guid(56c880fcdd9044ec3a0552584a6ad1a5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '986fce46ef5acec50e6d59aeb1980bb5') in 0.002067958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_96.asset
+  artifactKey: Guid(23ffa0c019e404872ab6b939795e735c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_96.asset using Guid(23ffa0c019e404872ab6b939795e735c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3ff34dba4cc69509a77406a033f16f6d') in 0.001514709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_28.asset
+  artifactKey: Guid(f871ede7de0034dfaa429a2820858083) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_28.asset using Guid(f871ede7de0034dfaa429a2820858083) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c5c399bb2516339864035a795e633f40') in 0.001284042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_30.asset
+  artifactKey: Guid(519354e0e8f0c4d6d94c59b57b53ef21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_30.asset using Guid(519354e0e8f0c4d6d94c59b57b53ef21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0e2650833720a501d20a131bf51bf2f7') in 0.001231708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_83.asset
+  artifactKey: Guid(0c22f8be1bbf649ecafeea80a545d429) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_83.asset using Guid(0c22f8be1bbf649ecafeea80a545d429) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4470524e1aafe97bf36f41a6a583ca0b') in 0.001220208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_43.asset
+  artifactKey: Guid(d0b79682891664bd8b555dffae575b45) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_43.asset using Guid(d0b79682891664bd8b555dffae575b45) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c1a3bc061918b35b4b6d5279d856681a') in 0.001118334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_5.asset
+  artifactKey: Guid(a5ea62e9f41824f53a81b1ec3c2e22b4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_5.asset using Guid(a5ea62e9f41824f53a81b1ec3c2e22b4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd27b799737b559f2efa8459845275c48') in 0.001348542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_29.asset
+  artifactKey: Guid(f0f261775eb3a4db9b1886795573461f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_29.asset using Guid(f0f261775eb3a4db9b1886795573461f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7ada62497bc0f7dd6a470a54ef7d0951') in 0.001305917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_87.asset
+  artifactKey: Guid(26211314d288d4ac0ad439622ad69959) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_87.asset using Guid(26211314d288d4ac0ad439622ad69959) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5c853eaf665796ba93dff5c99a474ad5') in 0.001286375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_10.asset
+  artifactKey: Guid(34b5107dfccdd41ce953c61c4067dd6f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_10.asset using Guid(34b5107dfccdd41ce953c61c4067dd6f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '24623cdb30a4670f3ff26f94dcdf70b9') in 0.001161292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_63.asset
+  artifactKey: Guid(a5d8d08527cd04b6198fc00d15a91640) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_63.asset using Guid(a5d8d08527cd04b6198fc00d15a91640) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '10ab518b19c12be91a0b385fea459d97') in 0.001267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_88.asset
+  artifactKey: Guid(2d7462e5fa552436fa87d249db8cefbd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_88.asset using Guid(2d7462e5fa552436fa87d249db8cefbd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd984299dbce419353b442a8fe145f3de') in 0.001119917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_31.asset
+  artifactKey: Guid(6ab123cba5d314e1da9c268859d43979) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_31.asset using Guid(6ab123cba5d314e1da9c268859d43979) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'aa64e1ff2163907a25ff8bc1e2ba5612') in 0.00115025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_13.asset
+  artifactKey: Guid(a6031e15a98484eedbcb997a801c1673) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_13.asset using Guid(a6031e15a98484eedbcb997a801c1673) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd6d3ddcef03183e31eb24801292e34cb') in 0.00114125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_42.asset
+  artifactKey: Guid(7923c488308234857a193661c1d3fb4e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_42.asset using Guid(7923c488308234857a193661c1d3fb4e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '914a38843ab14aa8e4d92dfc8736fd19') in 0.001134542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_57.asset
+  artifactKey: Guid(604f77fee33f841b6ab5af676a9e9063) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_57.asset using Guid(604f77fee33f841b6ab5af676a9e9063) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3ddab60a67a3cecc6599e7ddebe942a3') in 0.001291333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_35.asset
+  artifactKey: Guid(3ee59134db6ad450dae27ea9ce695fbf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_35.asset using Guid(3ee59134db6ad450dae27ea9ce695fbf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2f1edff7606356f0efa449e1cb851fec') in 0.001866417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_82.asset
+  artifactKey: Guid(aee809cca7fbe43b494258d4e234e29b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_82.asset using Guid(aee809cca7fbe43b494258d4e234e29b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e379fd56685cebba5be910bf9c896016') in 0.001055583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_39.asset
+  artifactKey: Guid(24d42114e468f41eb9090f05dbbfdfc1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_39.asset using Guid(24d42114e468f41eb9090f05dbbfdfc1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1435c8d2600e8d8153dd63dd4dcf1516') in 0.000987833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_55.asset
+  artifactKey: Guid(10cb640d748ef47639cd67f0e9ad4981) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_55.asset using Guid(10cb640d748ef47639cd67f0e9ad4981) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5a54748181e4a5895b396e2daee45370') in 0.001377667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_99.asset
+  artifactKey: Guid(9f565cd68d441454d9ed1f51b25d9cec) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_99.asset using Guid(9f565cd68d441454d9ed1f51b25d9cec) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1281c1549943d125a157659b92ee7a54') in 0.001161416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_94.asset
+  artifactKey: Guid(875e9dfa972674bd6b25542572a9aa06) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_94.asset using Guid(875e9dfa972674bd6b25542572a9aa06) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ee342275720bbce088291268ce4eb8ac') in 0.001339625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_31.asset
+  artifactKey: Guid(df386c87ce2d9441f84b33520b3e2e72) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_31.asset using Guid(df386c87ce2d9441f84b33520b3e2e72) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '188f020c4c2781870d857ccef25bb9f6') in 0.0010875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_58.asset
+  artifactKey: Guid(7972f5a14a3164b0d8c055ae1aa5b0b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_58.asset using Guid(7972f5a14a3164b0d8c055ae1aa5b0b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9a25735d5f2383919cbc9b828f3e3538') in 0.001320208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_0.asset
+  artifactKey: Guid(9db17a757ad6d496aa603f9b7d0e1598) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_0.asset using Guid(9db17a757ad6d496aa603f9b7d0e1598) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '26b4847a1d7a9243d907313747dc1356') in 0.001164333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_49.asset
+  artifactKey: Guid(f7fa4a2cae880435f905ff8f03652faf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_49.asset using Guid(f7fa4a2cae880435f905ff8f03652faf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9d9336c8e6e8f72d15f4cc02ebd4655f') in 0.001140167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_72.asset
+  artifactKey: Guid(e38d16b75ff88419f9a6f65c38635d87) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Ground Tileset 1.1_72.asset using Guid(e38d16b75ff88419f9a6f65c38635d87) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '663910b494ce4676bce3a4158fd75247') in 0.001180166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_19.asset
+  artifactKey: Guid(4ad4c6e0fe3b04c45940808919f43d21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_19.asset using Guid(4ad4c6e0fe3b04c45940808919f43d21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8edde3877d98afdf479d0ffa08214909') in 0.001285584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_0.asset
+  artifactKey: Guid(69459ad436a1f47aab0ca6cb84349b5c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_0.asset using Guid(69459ad436a1f47aab0ca6cb84349b5c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '73ca44a2697a894242e40093fdab5ba7') in 0.001239792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_22.asset
+  artifactKey: Guid(123ddc4cc4e5e4ecd95e8d9294a2c567) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_22.asset using Guid(123ddc4cc4e5e4ecd95e8d9294a2c567) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7e82176721da510247ab8bd6284f30b2') in 0.001169875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_36.asset
+  artifactKey: Guid(6cbc44da610434e88be5577f13bc9207) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_36.asset using Guid(6cbc44da610434e88be5577f13bc9207) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'db8147d9a03ee3b2f4d91aab0355da69') in 0.001030958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_10.asset
+  artifactKey: Guid(9f5e000fb75aa492091fac07ea8374eb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Mushrooms_10.asset using Guid(9f5e000fb75aa492091fac07ea8374eb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f0ea118c2dbc7419b33a6cc05784394f') in 0.001431333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464466 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_47.asset
+  artifactKey: Guid(0b464507b7c25449484761d6a4abc112) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Nature Details_47.asset using Guid(0b464507b7c25449484761d6a4abc112) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e42d53ef1af09cd09e9d2f9eb5224b0a') in 0.002406417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_63.asset
+  artifactKey: Guid(fde26ae21fc464b0d8bd9de7cd89578d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_63.asset using Guid(fde26ae21fc464b0d8bd9de7cd89578d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5bdc22917468da0d54005d505a6cf868') in 0.001220333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_101.asset
+  artifactKey: Guid(e59ccdc9f6bb4449297eba0c21f9b47d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_101.asset using Guid(e59ccdc9f6bb4449297eba0c21f9b47d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '02cde6f2315560b0df12c241ab8eff23') in 0.0013925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_65.asset
+  artifactKey: Guid(9ace93dce67d6481ea3904da29e2cfb2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_65.asset using Guid(9ace93dce67d6481ea3904da29e2cfb2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5a14dc863c05daf7132da7142c4185c7') in 0.0013015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_84.asset
+  artifactKey: Guid(c07167be1879d45c7b015c2063b60e23) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_84.asset using Guid(c07167be1879d45c7b015c2063b60e23) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c76798200c1b2d0957f1b83f1e02ddbf') in 0.001348958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_17.asset
+  artifactKey: Guid(43e4bd1a956fc49d2a1e99024de9a6bf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_17.asset using Guid(43e4bd1a956fc49d2a1e99024de9a6bf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '979a9c818e4d24a4bd76a5a445c096aa') in 0.001424958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_6.asset
+  artifactKey: Guid(79a12c9dcf10d47999bdadb68e167fdd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_6.asset using Guid(79a12c9dcf10d47999bdadb68e167fdd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '376c1d50a194bb911d5d928283ed22a3') in 0.001441041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_17.asset
+  artifactKey: Guid(8314c5c70048f412581b40ab2c9dd229) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_17.asset using Guid(8314c5c70048f412581b40ab2c9dd229) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd9187a692a785cf974fd08cf0520b237') in 0.001237625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_5.asset
+  artifactKey: Guid(23177b21a888e43a8a7386e9f21476e0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_5.asset using Guid(23177b21a888e43a8a7386e9f21476e0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '6d43bbb63a4eace5b5bdb75fdb3e90de') in 0.001069208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_61.asset
+  artifactKey: Guid(d98fabbecfea64c44a7779fe65b1e852) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_61.asset using Guid(d98fabbecfea64c44a7779fe65b1e852) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '396233a6e1b963fdf50e6e602eddc802') in 0.001316959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_75.asset
+  artifactKey: Guid(bd5408956b3b0406f8a837c60c3a618a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_75.asset using Guid(bd5408956b3b0406f8a837c60c3a618a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '6352d01d1f951fd69d570b0679e0d8fb') in 0.001694833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_7.asset
+  artifactKey: Guid(1331ba69aefb04ac6b3325365783c7c4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_7.asset using Guid(1331ba69aefb04ac6b3325365783c7c4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b0a25eafdd51c82b71c1455d4266012c') in 0.001345875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_38.asset
+  artifactKey: Guid(d719c227058144136b3a56453e982cb0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_38.asset using Guid(d719c227058144136b3a56453e982cb0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b0e90ddf70c860285cf16a4ccf138f54') in 0.001145334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_83.asset
+  artifactKey: Guid(55f072b08785f456eacfeef436885cd5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_83.asset using Guid(55f072b08785f456eacfeef436885cd5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1d2f52080d22998d5a1395c016edad14') in 0.001428875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_40.asset
+  artifactKey: Guid(cb27e2d2bb8674b95b312999a825ee26) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_40.asset using Guid(cb27e2d2bb8674b95b312999a825ee26) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a0f77418c240d42e48ddc85b751de53d') in 0.001356791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_39.asset
+  artifactKey: Guid(d2ffb0296cff94e1dace05d7ed4a809c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_39.asset using Guid(d2ffb0296cff94e1dace05d7ed4a809c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8f946908270c4b7af79f88cc3355d316') in 0.001910917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_1.asset
+  artifactKey: Guid(78def42fec7614540b1ca762a0ff77e0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_1.asset using Guid(78def42fec7614540b1ca762a0ff77e0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3056e9e030215c5172cc331adca41ff6') in 0.001373875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_102.asset
+  artifactKey: Guid(430dc4980837f443bbf4b31db2635828) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_102.asset using Guid(430dc4980837f443bbf4b31db2635828) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '802b226ab68a1b93dc90deb22e439db0') in 0.001505083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_73.asset
+  artifactKey: Guid(614915c2f7bb04d12919a538dc3d43a2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_73.asset using Guid(614915c2f7bb04d12919a538dc3d43a2) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f8fe9eea3c4166cf5ca58d9281ba6be5') in 0.00128375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_1.asset
+  artifactKey: Guid(a015809b88ed743dd83a2a3e4806b814) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_1.asset using Guid(a015809b88ed743dd83a2a3e4806b814) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a4a2345163033b31316a10637e3c5b91') in 0.001123917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_37.asset
+  artifactKey: Guid(638fcfd3a68b441e481fa7194d42b7b5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_37.asset using Guid(638fcfd3a68b441e481fa7194d42b7b5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c5846dffa98b8747ab8d73911f2be871') in 0.001416792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_82.asset
+  artifactKey: Guid(c73c0acfdbcc042368b422a1ce30eb8e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_82.asset using Guid(c73c0acfdbcc042368b422a1ce30eb8e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4382387f93b9274fef63399ff414677b') in 0.001376166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_59.asset
+  artifactKey: Guid(8798659036ee148aca8f8bfac6081ec0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_59.asset using Guid(8798659036ee148aca8f8bfac6081ec0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c3d09ec56414a39e1c47e775b9be5240') in 0.001462708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_104.asset
+  artifactKey: Guid(cb2ee48eb52e04e8295c836a434d3971) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_104.asset using Guid(cb2ee48eb52e04e8295c836a434d3971) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cc3644da0aad0aef751fb165972c16f3') in 0.001315792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_13.asset
+  artifactKey: Guid(fb18e7a510dbe4f1d87d5a89196c52a4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_13.asset using Guid(fb18e7a510dbe4f1d87d5a89196c52a4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7567fa1ab17bbcd54c81f089ef5b78fb') in 0.001203208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_15.asset
+  artifactKey: Guid(91db6055090d74be6a176d99f43a706a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_15.asset using Guid(91db6055090d74be6a176d99f43a706a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4ceed32e4af5b552d93f2be9456f0d53') in 0.00135675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_55.asset
+  artifactKey: Guid(62f10d97aa43540c7b8af63f2168a0fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_55.asset using Guid(62f10d97aa43540c7b8af63f2168a0fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '83c073831a64d12a0521d423283d2d26') in 0.00131075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_3.asset
+  artifactKey: Guid(2be68b324c1144f0490c8a8cdfee65f1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_3.asset using Guid(2be68b324c1144f0490c8a8cdfee65f1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '84b71856c9b15157855973755a2a0473') in 0.00113775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_31.asset
+  artifactKey: Guid(d9356e5c1ea2748fbaefaeb9d148c420) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_31.asset using Guid(d9356e5c1ea2748fbaefaeb9d148c420) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '210c582c5833c7fb94d207b9bfd1bc61') in 0.001313875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_10.asset
+  artifactKey: Guid(8dbd8e43cc59d41b5b4996776e15dc4c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_10.asset using Guid(8dbd8e43cc59d41b5b4996776e15dc4c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b940e441f046bf8bdaf4517304d3b3fb') in 0.001346125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_100.asset
+  artifactKey: Guid(6f7564903116a44aaaf98fe9d8685042) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_100.asset using Guid(6f7564903116a44aaaf98fe9d8685042) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0a3a76c611ab707351d4b7660c689871') in 0.001889583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_10.asset
+  artifactKey: Guid(f0579ba77c456420693d163a3c25b1d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_10.asset using Guid(f0579ba77c456420693d163a3c25b1d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b94ae2ca6c1fcfb4e1e0c4a6e14663fe') in 0.00123475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_32.asset
+  artifactKey: Guid(81d2a87464a3c47eb8ee3dd563fde7c4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_32.asset using Guid(81d2a87464a3c47eb8ee3dd563fde7c4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '51478b27efe48f4c9f9e9bfd211f7262') in 0.001087292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_25.asset
+  artifactKey: Guid(1d4c751f1a54840ff809966efe05ad0d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_25.asset using Guid(1d4c751f1a54840ff809966efe05ad0d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ce7b7fe4b96287f502ef2a01651cb1fd') in 0.0013465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_86.asset
+  artifactKey: Guid(9d86a531700ed41408b62e3fd8c57a8a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_86.asset using Guid(9d86a531700ed41408b62e3fd8c57a8a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '03caa7d7a0db263c431f62b503f75d89') in 0.001292375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_41.asset
+  artifactKey: Guid(01c36113674074f3d8877e5c30c03afd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_41.asset using Guid(01c36113674074f3d8877e5c30c03afd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1ec4578f56bb8d46cdd96ac4198d6e9b') in 0.0011765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_45.asset
+  artifactKey: Guid(522fba7cb231d4c52a39ee62d9a565bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_45.asset using Guid(522fba7cb231d4c52a39ee62d9a565bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '96173d4155c53c020234cf5097f77673') in 0.001334333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_27.asset
+  artifactKey: Guid(b1be626f53425474781e26f656f08eda) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_27.asset using Guid(b1be626f53425474781e26f656f08eda) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5b0825cf38eef13cfa92b6273cd78fcd') in 0.001219459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_69.asset
+  artifactKey: Guid(04d02d501765845bf8149d6f44b67ffe) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_69.asset using Guid(04d02d501765845bf8149d6f44b67ffe) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '231c3352c170e436f11c603c51140311') in 0.001345375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_2.asset
+  artifactKey: Guid(b9d4af64dd0264da4b19718099e9e063) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_2.asset using Guid(b9d4af64dd0264da4b19718099e9e063) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c4912e71df9085d9ab73a13c0d64293a') in 0.001278375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_0.asset
+  artifactKey: Guid(3d2c637dcf87f41d2a8fd08ec38604e7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_0.asset using Guid(3d2c637dcf87f41d2a8fd08ec38604e7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '83852d2e6675a88b3eb1982cd84c7dce') in 0.001186667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_60.asset
+  artifactKey: Guid(64ed22fdbfada46ac9db2e5fd8289e5b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_60.asset using Guid(64ed22fdbfada46ac9db2e5fd8289e5b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cd6173349a8922436ed2487a4640789e') in 0.001324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_11.asset
+  artifactKey: Guid(e5fab65991bad425ba9f5233abb72f14) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_11.asset using Guid(e5fab65991bad425ba9f5233abb72f14) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '860507f13457183350dbff3c15d73f57') in 0.001345041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_21.asset
+  artifactKey: Guid(d85901aa084d94ce2bc381c3d6d10eed) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_21.asset using Guid(d85901aa084d94ce2bc381c3d6d10eed) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5d20caf3961a806ee8186096f410042c') in 0.001180291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_13.asset
+  artifactKey: Guid(4d84e713e392c43089d5b952c2e416cb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_13.asset using Guid(4d84e713e392c43089d5b952c2e416cb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4f9191281ac8a9affd00d2f9273074c6') in 0.001155583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_3.asset
+  artifactKey: Guid(ea6b419fa14b5424a940069f837a4df9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_3.asset using Guid(ea6b419fa14b5424a940069f837a4df9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1ece8eeeccc1939277a38b526d3fcfab') in 0.002096666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_12.asset
+  artifactKey: Guid(dcecdf9f9ac6b47919ec56ee1fb7d9da) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Rocks 1.1_12.asset using Guid(dcecdf9f9ac6b47919ec56ee1fb7d9da) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1ed1f6a31908ead522ac2ce0179747cb') in 0.001276041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_16.asset
+  artifactKey: Guid(77400a851e80b489d87d8a285b62c176) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Tree Stumps and Logs_16.asset using Guid(77400a851e80b489d87d8a285b62c176) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '266f70bf7f210563851eb7c9726ee227') in 0.001220542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_15.asset
+  artifactKey: Guid(b6d3aa2551ca84e55a2c70db66a21c21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_15.asset using Guid(b6d3aa2551ca84e55a2c70db66a21c21) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e5a9d307f4b4bd5dadef5e8d1c9de72a') in 0.001126417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_30.asset
+  artifactKey: Guid(e3c8094cece324a1fb394dab49fc17b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_30.asset using Guid(e3c8094cece324a1fb394dab49fc17b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1352588ad67cd3d0178248c044fb368f') in 0.0014025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442553 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_90.asset
+  artifactKey: Guid(1419e3fe90ec444d983f13557ae50695) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_90.asset using Guid(1419e3fe90ec444d983f13557ae50695) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'dd07932420ae06f8d8f3c156515a99e3') in 0.001790209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_93.asset
+  artifactKey: Guid(2838c905ec19243d483038adc5a51e77) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_93.asset using Guid(2838c905ec19243d483038adc5a51e77) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2a471860d718371bf4814165668469e0') in 0.0014555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_95.asset
+  artifactKey: Guid(aa22c9979c2cc49dd91f5d027738bc1f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Tiles/Outdoors/Topdown RPG 32x32 - Trees 1.2_95.asset using Guid(aa22c9979c2cc49dd91f5d027738bc1f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3978e09535435515675a00e61f5db662') in 0.001158458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.231704 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecec35b7f552c5179ce2f3fa6f31df4f') in 0.000254542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.8 MB). Loaded Objects now: 5074.
+Memory consumption went from 100.6 MB to 99.8 MB.
+Total: 4.464709 ms (FindLiveObjects: 0.181417 ms CreateObjectMapping: 0.074708 ms MarkObjects: 3.784333 ms  DeleteObjects: 0.424000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.949502 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '97cc2cb227f56c05baa2061846d8f68e') in 0.001138584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.6 MB). Loaded Objects now: 5074.
+Memory consumption went from 100.4 MB to 99.7 MB.
+Total: 4.651042 ms (FindLiveObjects: 0.175333 ms CreateObjectMapping: 0.079000 ms MarkObjects: 3.963042 ms  DeleteObjects: 0.433167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 174.481192 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '66c69015fd50dace32e8392b123d0901') in 0.001004167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.6 MB). Loaded Objects now: 5074.
+Memory consumption went from 100.2 MB to 99.6 MB.
+Total: 4.479417 ms (FindLiveObjects: 0.177000 ms CreateObjectMapping: 0.075083 ms MarkObjects: 3.816125 ms  DeleteObjects: 0.411084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.6 MB). Loaded Objects now: 5074.
+Memory consumption went from 99.9 MB to 99.3 MB.
+Total: 4.539625 ms (FindLiveObjects: 0.177750 ms CreateObjectMapping: 0.078084 ms MarkObjects: 3.887500 ms  DeleteObjects: 0.396000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 195.485332 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f3a203766f29e829c3b5addf90a3702d') in 0.000975584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.6 MB). Loaded Objects now: 5074.
+Memory consumption went from 99.7 MB to 99.1 MB.
+Total: 4.693750 ms (FindLiveObjects: 0.174958 ms CreateObjectMapping: 0.079833 ms MarkObjects: 3.978458 ms  DeleteObjects: 0.460417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.126133 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '66e592ab911c1e91e47ff6ff600e8a06') in 0.001198416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.9 MB). Loaded Objects now: 5074.
+Memory consumption went from 99.5 MB to 98.6 MB.
+Total: 4.399583 ms (FindLiveObjects: 0.170084 ms CreateObjectMapping: 0.079375 ms MarkObjects: 3.792916 ms  DeleteObjects: 0.356958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.985252 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2f1279376a48a1a3b3113a9c61d0f8c0') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.9 MB). Loaded Objects now: 5074.
+Memory consumption went from 99.3 MB to 98.4 MB.
+Total: 4.461750 ms (FindLiveObjects: 0.173041 ms CreateObjectMapping: 0.078709 ms MarkObjects: 3.820000 ms  DeleteObjects: 0.389875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.8 MB). Loaded Objects now: 5074.
+Memory consumption went from 99.1 MB to 98.4 MB.
+Total: 4.414500 ms (FindLiveObjects: 0.180709 ms CreateObjectMapping: 0.079791 ms MarkObjects: 3.796959 ms  DeleteObjects: 0.356750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 133.594749 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd99a0f60ff3a38fa8f82823d637e15f1') in 0.001015791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fe5b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.235 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 473ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (1.0 MB). Loaded Objects now: 5077.
+Memory consumption went from 108.1 MB to 107.1 MB.
+Total: 4.040459 ms (FindLiveObjects: 0.176167 ms CreateObjectMapping: 0.081458 ms MarkObjects: 3.398792 ms  DeleteObjects: 0.383875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Thread 0x16da57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.240 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (1.0 MB). Loaded Objects now: 5079.
+Memory consumption went from 108.7 MB to 107.8 MB.
+Total: 3.964125 ms (FindLiveObjects: 0.163875 ms CreateObjectMapping: 0.074000 ms MarkObjects: 3.346958 ms  DeleteObjects: 0.379209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16da57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.245 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 504ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (0.8 MB). Loaded Objects now: 5081.
+Memory consumption went from 109.2 MB to 108.4 MB.
+Total: 4.385125 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.099292 ms MarkObjects: 3.693083 ms  DeleteObjects: 0.394833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 890.572605 seconds.
+  path: Assets/Sprites/Companions/duck.png
+  artifactKey: Guid(e5ebaab36983d4e6b8f8dbac8debec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Companions/duck.png using Guid(e5ebaab36983d4e6b8f8dbac8debec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '535c0ef3613e09f140e31863882ce5e0') in 0.074063708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.939719 seconds.
+  path: Assets/Animations/Controllers/DuckController.controller
+  artifactKey: Guid(07ffbbe97f2f642aa929ab17cb0b40ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Controllers/DuckController.controller using Guid(07ffbbe97f2f642aa929ab17cb0b40ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d08a2169e8b336ffdfa4e93f1026d41') in 0.001140625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.240593 seconds.
+  path: Assets/Animations/Controllers/PlayerController.controller
+  artifactKey: Guid(d253803a0cece4e2280c944c31814676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Controllers/PlayerController.controller using Guid(d253803a0cece4e2280c944c31814676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94da76ea6f15253fa1f60bb5403e6ea4') in 0.000856916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4477 unused Assets / (0.7 MB). Loaded Objects now: 5088.
+Memory consumption went from 103.1 MB to 102.5 MB.
+Total: 4.902917 ms (FindLiveObjects: 0.207750 ms CreateObjectMapping: 0.075875 ms MarkObjects: 4.165375 ms  DeleteObjects: 0.453750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16da57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.246 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 506ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4483 unused Assets / (1.0 MB). Loaded Objects now: 5089.
+Memory consumption went from 110.3 MB to 109.3 MB.
+Total: 4.054709 ms (FindLiveObjects: 0.174209 ms CreateObjectMapping: 0.085000 ms MarkObjects: 3.409583 ms  DeleteObjects: 0.385542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2479.293951 seconds.
+  path: Assets/Sprites/Companions
+  artifactKey: Guid(2330155d671bc4eb3a776228e34d12fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Companions using Guid(2330155d671bc4eb3a776228e34d12fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c0d46d44b19077ca2bcdac31baa7cd') in 0.000808334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.844946 seconds.
+  path: Assets/Scripts/RoundCameraPos.cs
+  artifactKey: Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Scripts/RoundCameraPos.cs using Guid(11086e0706ad746c3b5b8a173bd3b307) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1300b1f7d652e3278f12e7e38e0e6d69') in 0.054797875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.058806 seconds.
+  path: Assets/Sprites/Companions/duck 1.png
+  artifactKey: Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Companions/duck 1.png using Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c7ec6a66c49533e92c8545b0aae4143') in 0.049300042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947720 seconds.
+  path: Assets/Sprites/Companions/duck 1.png
+  artifactKey: Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Companions/duck 1.png using Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c26a4149d501f6d665cb153670371b72') in 0.032066166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.634260 seconds.
+  path: Assets/Sprites/Companions/duck 1.png
+  artifactKey: Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Companions/duck 1.png using Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a1ff2af597914db7856edfae850284') in 0.025137416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970663 seconds.
+  path: Assets/Sprites/Companions/duck 1.png
+  artifactKey: Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Sprites/Companions/duck 1.png using Guid(e19c53a0b9ee34b5bb8f9724c996af44) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd3329d4b3bef87df77faa7e731e58a3a') in 0.008045625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.149026 seconds.
+  path: Assets/Animations/Animations/duck-walk-east.anim
+  artifactKey: Guid(acd3bcf629f264a788c41bb5da41cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animations/duck-walk-east.anim using Guid(acd3bcf629f264a788c41bb5da41cb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e66f7352584bac792fd5745c77d43df6') in 0.000564417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.230647 seconds.
+  path: Assets/Animations/Animations/duck-walk-south.anim
+  artifactKey: Guid(f6ccc7bce5f3e4591aabf74286c45ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Animations/duck-walk-south.anim using Guid(f6ccc7bce5f3e4591aabf74286c45ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2388e734599da070a8c140ae4e8b319e') in 0.000515291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
