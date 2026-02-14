@@ -80,7 +80,7 @@ public class DuckFollower : MonoBehaviour
             UpdateAnim(Vector2.zero);
             return;
         }
-
+ 
         // Stop when close enough
         Vector2 desiredVel = Vector2.zero;
 

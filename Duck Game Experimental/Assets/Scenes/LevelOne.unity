@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DuckFollower
   player: {fileID: 566349511}
   playerMovement: {fileID: 1922731800}
-  followBehindDistance: 0.75
+  followBehindDistance: 0.2
   extraOffset: {x: -0.2, y: 0}
   maxSpeed: 4
   acceleration: 25
