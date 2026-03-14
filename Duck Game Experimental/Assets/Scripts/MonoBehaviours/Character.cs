@@ -1,7 +1,11 @@
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public abstract class Character : MonoBehaviour
 {
+
+    public int hitPoints;
+    public int maxHitPoints;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
