@@ -7,8 +7,9 @@ public class Player : Character
 
     public void Start()
     {
-        HitPoints.value = startingHitPoints;
+        hitPoints.value = startingHitPoints;
         healthBar = Instantiate(healthBarPrefab);
+        healthBar.character = this;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -51,4 +52,3 @@ public class Player : Character
     }
 
 }
-

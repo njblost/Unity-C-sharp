@@ -9424,6 +9424,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16f051ce3456c47358f22bc124b0ed89, type: 3}
+--- !u!114 &1626047446377009013 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 795833204592874344, guid: 16f051ce3456c47358f22bc124b0ed89, type: 3}
+  m_PrefabInstance: {fileID: 1626047446377009012}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f30b33fab284f3b91f7d426dd4c743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBar
 --- !u!1001 &5539210607649113053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9476,6 +9487,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7775878858817772505, guid: 7329bce295da74da4891e8bb6e058e4f, type: 3}
+      propertyPath: healthBarPrefab
+      value: 
+      objectReference: {fileID: 1626047446377009013}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

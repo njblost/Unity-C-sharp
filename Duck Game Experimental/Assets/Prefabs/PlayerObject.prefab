@@ -216,5 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c9a5f663f414c4b858da95cb314526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  hitPoints: 5
+  hitPoints: {fileID: 11400000, guid: e6206cc8f0fb04bc9abb356e3b4f3429, type: 2}
   maxHitPoints: 10
+  startingHitPoints: 6
+  healthBarPrefab: {fileID: 0}

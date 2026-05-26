@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9004118314373415457}
   - component: {fileID: 291424141512478252}
   - component: {fileID: 2710507051913476437}
+  - component: {fileID: 795833204592874344}
   m_Layer: 5
   m_Name: HealthBarObject
   m_TagString: Untagged
@@ -102,6 +103,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &795833204592874344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558816807698211754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f30b33fab284f3b91f7d426dd4c743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBar
+  hitPoints: {fileID: 11400000, guid: e6206cc8f0fb04bc9abb356e3b4f3429, type: 2}
+  character: {fileID: 0}
+  meterImage: {fileID: 1275721900267525215}
+  hpText: {fileID: 1138824395901225095}
 --- !u!1 &5236259656762608803
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +435,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.294
+  m_FillAmount: 0.316
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
