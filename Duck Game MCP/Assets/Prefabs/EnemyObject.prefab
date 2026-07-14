@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7598638646522353989}
   - component: {fileID: 461885269721654795}
   - component: {fileID: 6014263129539051625}
+  - component: {fileID: 6236930021663205321}
   m_Layer: 6
   m_Name: EnemyObject
   m_TagString: Enemy
@@ -185,7 +186,23 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &6236930021663205321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8039168516976293502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034c2aacea2d145ba90c0bead6507e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimationDriver
+  rb: {fileID: 0}
+  movingThreshold: 0.01
+  isMovingParameter: IsMoving
+  flipSpriteWhenMovingLeft: 1
