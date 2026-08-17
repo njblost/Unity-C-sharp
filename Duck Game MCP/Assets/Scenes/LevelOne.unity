@@ -437,11 +437,11 @@ MonoBehaviour:
   followSmoothTime: 0.18
   teleportIfFartherThan: 8
   minimumPlayerMoveForDirection: 0.001
-  idleSouthState: idleSouth
-  walkSouthState: walkSouth
-  walkNorthState: walkNorth
-  walkEastState: walkEast
-  walkWestState: walkWest
+  idleSouthState: duck-walk-idle
+  walkSouthState: duck-walk-south
+  walkNorthState: duck-walk-north
+  walkEastState: duck-walk-east
+  walkWestState: duck-walk-west
 --- !u!61 &267751832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -488,6 +488,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.61904, y: 0.3884591}
   m_EdgeRadius: 0
+--- !u!1 &270051947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270051948}
+  m_Layer: 0
+  m_Name: PlayerSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &270051948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270051947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.002, y: -0.15338, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &312435064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4741,6 +4772,55 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &906759393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906759394}
+  - component: {fileID: 906759395}
+  m_Layer: 0
+  m_Name: RPGGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906759394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906759393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &906759395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906759393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621fbda676b674f39bb81e2f5798aa61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RPGGameManager
+  player: {fileID: 5539210607649113054}
+  playerSpawnPoint: {fileID: 270051948}
+  respawnDelay: 1.5
+  respawnPlayerOnDeath: 1
+  cameraFollowTarget: {fileID: 0}
 --- !u!1 &931236838
 GameObject:
   m_ObjectHideFlags: 0
@@ -9713,11 +9793,26 @@ PrefabInstance:
       propertyPath: healthBarPrefab
       value: 
       objectReference: {fileID: 2108464248}
+    - target: {fileID: 7775878858817772505, guid: 7329bce295da74da4891e8bb6e058e4f, type: 3}
+      propertyPath: startingHitPoints
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7329bce295da74da4891e8bb6e058e4f, type: 3}
+--- !u!114 &5539210607649113054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7775878858817772505, guid: 7329bce295da74da4891e8bb6e058e4f, type: 3}
+  m_PrefabInstance: {fileID: 5539210607649113053}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c9a5f663f414c4b858da95cb314526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!1001 &6587002436295082107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9791,3 +9886,5 @@ SceneRoots:
   - {fileID: 262802324}
   - {fileID: 1552970003}
   - {fileID: 1383889772}
+  - {fileID: 906759394}
+  - {fileID: 270051948}
