@@ -7,7 +7,7 @@ public class RPGGameManager : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] private Player player;
-    [SerializeField] private Transform playerSpawnPoint;
+    [SerializeField] private SpawnPoint playerSpawnPoint;
 
     [Header("Respawn")]
     [SerializeField] private float respawnDelay = 1.5f;
@@ -19,7 +19,7 @@ public class RPGGameManager : MonoBehaviour
     private Coroutine respawnCoroutine;
 
     public Player Player => player;
-    public Transform PlayerSpawnPoint => playerSpawnPoint;
+    public SpawnPoint PlayerSpawnPoint => playerSpawnPoint;
 
     private void Awake()
     {
@@ -91,7 +91,7 @@ public class RPGGameManager : MonoBehaviour
         RespawnPlayer();
     }
 
-    public void SetPlayerSpawnPoint(Transform newSpawnPoint)
+    public void SetPlayerSpawnPoint(SpawnPoint newSpawnPoint)
     {
         if (newSpawnPoint == null)
         {
@@ -127,7 +127,7 @@ public class RPGGameManager : MonoBehaviour
             return;
         }
 
-        player.RespawnAt(playerSpawnPoint);
+        player.RespawnAt(playerSpawnPoint.transform);
 
         cameraFollowTarget = player.transform;
 
